@@ -10,7 +10,10 @@ layout: default
 	        <h2 class="title is-1">Vorträge, Workshops, Trainings und Feedbacks</h2>
 			
 			{% for lehrveranstaltung in lehrveranstaltungen %}
-			<h3 class="title is-2"><a href="{{site.baseurl}}{{lehrveranstaltung.url}}">{{lehrveranstaltung.titel}}</a></h3>
+			<h3 class="title is-2">{{lehrveranstaltung.titel}}</h3>
+			
+			{% include /functions/resolve-types.html typ=lehrveranstaltung.typ %}
+
 			<dl class="overview">
 			
 			
@@ -27,17 +30,32 @@ layout: default
 				
 				{% assign check = lehrveranstaltung.typ | strip_newlines %}
 				{% if check != ""  %}
-				<dt>Typ</dt><dd>{{lehrveranstaltung.typ}}</dd>
+				<dt>Typ</dt><dd>{{typ-name}}</dd>
+				<dt>Maximale Teilnehmerzahl</dt><dd>{{typ-max-teilnehmer}}</dd>
 				{% endif %}
 				
 				{% include /functions/resolve-names.html verantwortlich=lehrveranstaltung.verantwortlich %}
 				<dt>Verantwortlich</dt><dd>{{verantwortliche}}</dd>
+				
+				{% assign check = lehrveranstaltung.empfohlene-voraussetzungen | strip_newlines %}
+				{% if check != ""  %}
+				{% include /functions/resolve-voraussetzungen.html voraussetzungen=lehrveranstaltung.empfohlene-voraussetzungen %}
+				<dt>Empfohlene Voraussetzungen</dt><dd>{{voraussetzungen}}</dd>
+				{% endif %}
+				
+				
 
 			</dl>
 			
+			<p>
+			{% assign check = lehrveranstaltung.info | strip_newlines %}
+			{% if check != ""  %}
+			{{lehrveranstaltung.info}}
+			{% endif %}
 			
-			{{lehrveranstaltung.content}}
-			
+			<a href="{{site.baseurl}}{{lehrveranstaltung.url}}">mehr zu {{lehrveranstaltung.titel}}</a>
+			</p>
+				
 			{% endfor %}	
 		</div>
 	</div>
