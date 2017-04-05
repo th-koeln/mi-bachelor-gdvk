@@ -1,0 +1,9 @@
+{% assign termine = include.termine | split: ","  %}
+{% assign dates = "" | split:"|"  %}
+ 
+{% for termin in termine %}
+{% assign t = termin | date: '%d. %B %Y, %H:%M Uhr' %}
+{% assign dates = dates | push: t %}
+{% endfor %}
+
+{% assign termine = dates | join: ", " %}

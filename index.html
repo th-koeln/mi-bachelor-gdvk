@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+{% assign lehrveranstaltungen = (site.lehrveranstaltungen | sort: 'title')) %}
+
+<section class="section">
+	<div class="container">
+		<div class="content">
+	        <h2 class="title is-1">Vorträge, Workshops, Trainings und Feedbacks</h2>
+			
+			{% for lehrveranstaltung in lehrveranstaltungen %}
+			<h3 class="title is-2"><a href="{{site.baseurl}}{{lehrveranstaltung.url}}">{{lehrveranstaltung.titel}}</a></h3>
+			<dl class="overview">
+			
+			
+				{% assign check = lehrveranstaltung.dauer | strip_newlines %}
+				{% if check != ""  %}
+				<dt>Dauer</dt><dd>{{lehrveranstaltung.dauer}} min</dd>
+				{% endif %}
+				
+				{% assign check = lehrveranstaltung.termine | strip_newlines %}
+				{% if check != ""  %}
+				{% include /functions/resolve-dates.html termine=lehrveranstaltung.termine %}
+				<dt>Termine</dt><dd>{{termine}}</dd>
+				{% endif %}
+				
+				{% assign check = lehrveranstaltung.typ | strip_newlines %}
+				{% if check != ""  %}
+				<dt>Typ</dt><dd>{{lehrveranstaltung.typ}}</dd>
+				{% endif %}
+				
+				{% include /functions/resolve-names.html verantwortlich=lehrveranstaltung.verantwortlich %}
+				<dt>Verantwortlich</dt><dd>{{verantwortliche}}</dd>
+
+			</dl>
+			
+			
+			{{lehrveranstaltung.content}}
+			
+			{% endfor %}	
+		</div>
+	</div>
+</section>
+
+
