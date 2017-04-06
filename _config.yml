@@ -11,6 +11,9 @@ description: Medieninformatik am Campus Gummersbach
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/th-koeln/mi-2017/master/images/box.png
 
+# Where are we?
+timezone: Europe/Berlin
+
 #
 # Flags below are optional
 #
@@ -95,3 +98,9 @@ collections:
     output: true    
 
 defaults:
+  - 
+    scope:
+      path: ""
+      type: lehrveranstaltungen
+    values:
+      layout: lehrveranstaltung

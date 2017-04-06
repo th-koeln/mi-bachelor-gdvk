@@ -1,0 +1,34 @@
+{% assign day             = include.day %}
+{% assign difftime        = include.difftime %}
+{% assign starttime       = include.starttime %}
+{% assign time-correction = include.time-correction %}
+
+{% assign lehrveranstaltungen = (site.lehrveranstaltungen | sort: 'title')) %}
+{% for lehrveranstaltung in lehrveranstaltungen %}
+	{% assign termine = lehrveranstaltung.termine | split: "," %}
+	{% assign termine-pro-tag = "" | split:"|"  %}
+	{% for entry in termine %}
+		
+		{% assign entry-data = entry | split: "|" %}
+		{% assign termin = entry-data[0] %}
+		{% assign termin-zone = termin | date: '%s' | minus: time-correction %}
+		{% assign termin-to-check = termin-zone | date: '%Y-%m-%d' %}
+		{% assign aktueller-tag = day.datum | date: '%Y-%m-%d' %}
+		
+		{% if termin-to-check == aktueller-tag %}
+		{% assign termine-pro-tag = termine-pro-tag | push: lehrveranstaltung %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+			
+<div class="column">
+	<div class="datum">{{day.datum | date: '%d. %B %Y' }}</div>
+	<div class="timetable-wrap">
+		{% for i in (0..difftime) %}
+		<div class="timetable-grid">
+			<p class="grid-time">{{i | plus: starttime}}:00</p>
+		</div>
+		{% endfor %}
+
+	</div>
+</div>

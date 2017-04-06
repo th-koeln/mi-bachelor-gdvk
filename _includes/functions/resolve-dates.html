@@ -1,8 +1,15 @@
 {% assign termine = include.termine | split: ","  %}
 {% assign dates = "" | split:"|"  %}
+{% assign termine-calc = termine %}
  
-{% for termin in termine %}
-{% assign t = termin | date: '%d. %B %Y, %H:%M Uhr' %}
+{% for entry in termine %}
+
+{% assign entry-data = entry | split: "|" %}
+{% assign termin = entry-data[0] %}
+{% assign raum = entry-data[1] %}
+
+{% assign new_termin = termin | date: '%s' | minus: 3600 %}
+{% assign t = new_termin | date: '%d. %B %Y, %H:%M Uhr' %}
 {% assign dates = dates | push: t %}
 {% endfor %}
 

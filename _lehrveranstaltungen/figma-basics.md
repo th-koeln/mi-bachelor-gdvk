@@ -4,7 +4,7 @@ kuerzel: t-fb
 verantwortlich: vs,mk,fj
 typ: training
 pflicht: false
-termine: 2013-11-29 12:00:00
+termine: 2017-04-28 14:00|fehlt
 empfohlene-voraussetzungen: 
 published: true
 dauer: 90

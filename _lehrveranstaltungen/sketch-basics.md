@@ -4,7 +4,7 @@ kuerzel: t-sb
 verantwortlich: vs,mk,fj
 typ: training
 pflicht: false
-termine: 2013-11-29 12:00:00
+termine: 2017-04-28 14:00|3.217
 empfohlene-voraussetzungen: 
 published: true
 dauer: 90

@@ -1,0 +1,19 @@
+week-1:
+  day-1:
+    datum: 2017-04-27
+    start: "14:00"
+    end: "18:00"
+  day-2:
+    datum: 2017-04-28
+    start: "11:00"
+    end: "18:00"
+    
+week-2:
+  day-1:
+    datum: 2017-05-04
+    start: "14:00"
+    end: "18:00"
+  day-2:
+    datum: 2017-05-05
+    start: "11:00"
+    end: "18:00"

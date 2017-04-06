@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+<section class="section modulfacts">
+	
+	<div class="container">
+		
+		<div class="content">
+			
+			<div class="columns">
+				<div class="column is-8"><h1>{{ page.title }}</h1></div>
+				<div class="column is-4 has-text-right">
+					<a target="_blank" href="https://github.com/th-koeln/mi-2017/edit/master/{{ page.path }}"><span class="icon"><i class="fa fa-edit"></i></span> Bearbeiten</a>
+				</div>
+			</div>
+			
+			{% include /functions/resolve-types.html typ=page.typ %}
+
+			<dl class="overview">
+			
+			
+				{% assign check = page.dauer | strip_newlines %}
+				{% if check != ""  %}
+				<dt>Dauer</dt><dd>{{page.dauer}} min</dd>
+				{% endif %}
+				
+				{% assign check = page.termine | strip_newlines %}
+				{% if check != ""  %}
+				{% include /functions/resolve-dates.html termine=page.termine %}
+				<dt>Termine</dt><dd>{{termine}}</dd>
+				{% endif %}
+				
+				{% assign check = page.typ | strip_newlines %}
+				{% if check != ""  %}
+				<dt>Typ</dt><dd>{{typ-name}}</dd>
+				<dt>Maximale Teilnehmerzahl</dt><dd>{{typ-max-teilnehmer}}</dd>
+				{% endif %}
+				
+				{% include /functions/resolve-names.html verantwortlich=page.verantwortlich %}
+				<dt>Verantwortlich</dt><dd>{{verantwortliche}}</dd>
+				
+				{% assign check = page.empfohlene-voraussetzungen | strip_newlines %}
+				{% if check != ""  %}
+				{% include /functions/resolve-voraussetzungen.html voraussetzungen=page.empfohlene-voraussetzungen %}
+				<dt>Empfohlene Voraussetzungen</dt><dd>{{voraussetzungen}}</dd>
+				{% endif %}
+				
+				
+
+			</dl>
+			
+			<p>
+			{% assign check = page.info | strip_newlines %}
+			{% if check != ""  %}
+			{{page.info}}
+			{% endif %}
+			</p>
+		</div>
+	</div>
+</section>
+
+<section class="section modulbeschreibung">
+	<div class="container">
+		<div class="content">
+		{{ content }}
+  		</div>
+	</div>
+</section>
