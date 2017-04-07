@@ -3,30 +3,56 @@
 {% assign starttime       = include.starttime %}
 {% assign time-correction = include.time-correction %}
 
-{% assign lehrveranstaltungen = (site.lehrveranstaltungen | sort: 'title')) %}
-{% for lehrveranstaltung in lehrveranstaltungen %}
-	{% assign termine = lehrveranstaltung.termine | split: "," %}
-	{% assign termine-pro-tag = "" | split:"|"  %}
-	{% for entry in termine %}
-		
-		{% assign entry-data = entry | split: "|" %}
-		{% assign termin = entry-data[0] %}
-		{% assign termin-zone = termin | date: '%s' | minus: time-correction %}
-		{% assign termin-to-check = termin-zone | date: '%Y-%m-%d' %}
-		{% assign aktueller-tag = day.datum | date: '%Y-%m-%d' %}
-		
-		{% if termin-to-check == aktueller-tag %}
-		{% assign termine-pro-tag = termine-pro-tag | push: lehrveranstaltung %}
-		{% endif %}
-	{% endfor %}
-{% endfor %}
-			
+{% assign lehrveranstaltungen = (site.lehrveranstaltungen | sort: 'typ')) %}
+
 <div class="column">
 	<div class="datum">{{day.datum | date: '%d. %B %Y' }}</div>
 	<div class="timetable-wrap">
+		
 		{% for i in (0..difftime) %}
+
 		<div class="timetable-grid">
-			<p class="grid-time">{{i | plus: starttime}}:00</p>
+			<div class="columns is-gapless">
+				<div class="column is-1">
+					{% assign stunde = i | plus: starttime | append: "" %}
+					<p class="grid-time">{{stunde | append: ":00"}}</p>
+				</div>
+				{% for veranstaltung in lehrveranstaltungen %}
+			
+				{% assign termine = veranstaltung.termine | split: "," %}
+				
+				
+				{% for entry in termine %}
+					{% assign entry-data = entry | split: "|" %}
+					{% assign termin = entry-data[0] %}
+					{% assign raum = entry-data[1] %}
+					{% assign termin-start-min = termin | date: '%M'  %}
+					{% assign startzeit = termin | date: "%H" | append: "" %}
+					{% assign termin-zone = termin | date: '%s' | minus: time-correction %}
+					{% assign termin-to-check = termin-zone | date: '%Y-%m-%d' %}
+					{% assign aktueller-tag = day.datum | date: '%Y-%m-%d' %}
+					
+					{% if startzeit == stunde %}
+						
+						{% if termin-to-check == aktueller-tag %}
+						<div class="column">
+							{% include /functions/resolve-types.html typ=veranstaltung.typ %}
+							<div class="veranstaltung {{veranstaltung.typ}}" style="margin-top: {{termin-start-min}}px;  height: {{veranstaltung.dauer}}px">
+								<p class="title">{{veranstaltung.titel}} {% if raum.size > 1 %}// Raum {{raum}}{% endif %}</p>
+								{% assign check = typ-max-teilnehmer | strip_newlines %}
+								{% if check != ""  %}
+								<p class="subtitle">{{typ-name}} für {{typ-max-teilnehmer}} Teilnehmer{% if termine.size > 1 %} ({{termine.size}} Termine){% endif %}</p>
+								{% endif %}
+							</div>
+						</div>
+						{% endif %} 
+					{% endif %} 
+				{% endfor %}
+				
+				
+			{% endfor %}
+			</div>
+		
 		</div>
 		{% endfor %}
 

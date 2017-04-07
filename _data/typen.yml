@@ -13,3 +13,7 @@ vortrag:
 support-all:
   name: Support 
   max-teilnehmer: beliebig viele
+  
+feedback:
+  name: Feedback & Support 
+  max-teilnehmer: 20

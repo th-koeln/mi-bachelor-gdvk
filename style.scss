@@ -75,11 +75,9 @@ $tt-grid-height: 60px;
 			.grid-time{
 				font-size: $bfs /2;
 			}
+			
 		}
 		.veranstaltung{
-			position: absolute;
-			top: 0;
-			left: $bfs *2;
 			width: 100%;
 			background-color: #999;;
 			border-bottom: solid 1px rgba(255,255,255,0.7);
@@ -94,19 +92,25 @@ $tt-grid-height: 60px;
 			.title + .subtitle{
 				margin-top: $bfs * -0.8;
 			}
-			
-			
+		
 			.title{
 				font-weight: bold;
 			}
-			
 			
 			&.training{
 				background-color: $mi-lila;
 			}
 			
+			&.workshop{
+				background-color: $mi-gruen;
+			}
+			
 			&.vortrag{
 				background-color: $mi-pink;
+			}
+			
+			&.feedback{
+				background-color: $mi-blau;
 			}
 		}
 	
