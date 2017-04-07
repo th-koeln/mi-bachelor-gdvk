@@ -6,20 +6,6 @@ tabs.func = (function(){
 
 	exports.init = function(){
 		
-		// Content ausblenden
-		tabs.elements.content = {};
-		var tabWraps = document.querySelectorAll('.is-tab-wrap');
-		
-		//if(tabWraps.length <= 1){ return false; }
-		
-		for(i=0; i<tabWraps.length; i++){
-			var tabWrap = tabWraps[i];
-			tabContents = tabWrap.querySelectorAll('.is-tab-content');
-			tabContents[1].classList.add('is-hidden');
-		}
-		
-		
-		
 		// Tab Navi aktivieren
 		var tabNavigations = document.querySelectorAll('.is-tab-navigation');
 		
@@ -27,37 +13,47 @@ tabs.func = (function(){
 			var tabNavigation = tabNavigations[i];
 			var htmltabs = tabNavigation.querySelectorAll('.tab-item');
 			htmltabs[0].classList.add('is-active');
+			selectTab(htmltabs[0]);
 			
 			for(i=0; i<htmltabs.length; i++){
 				var htmltab = htmltabs[i];
 				
-				htmltab.onclick = function() { 
-					
-					var target_id = this.getAttribute('data-tab');
-					var target = document.getElementById(target_id);
-
-					// Content ausblenden
-					var elements = target.parentElement.querySelectorAll('.is-tab-content');
-					for(i=0; i<elements.length; i++){
-						var element = elements[i];
-						element.classList.add('is-hidden');
-					}
-					
-					// gewählten Content einblenden
-					target.classList.remove('is-hidden');
-					
-					// Aktiven Navipunkt markieren
-					var elements = this.parentElement.querySelectorAll('.tab-item');
-					for(i=0; i<elements.length; i++){
-						var element = elements[i];
-						element.classList.remove('is-active');
-					}				
-					this.classList.add('is-active');
-				
-				};
+				htmltab.onclick = function(){ selectTab(this); }
 			}
 			
 		}
+	}
+	
+	selectTab = function( ele ){
+					
+		var target_id = ele.getAttribute('data-tab');
+		var targets = document.querySelectorAll('.is-' + target_id);
+
+		// Content ausblenden
+		var items = document.querySelectorAll('.is-tab-content');
+		
+		for(i=0; i<items.length; i++){
+			var item = items[i];
+			item.classList.add('is-hidden');
+		}
+		
+		// gewählten Content einblenden
+		var targets = document.querySelectorAll('.is-' + target_id);
+
+		// Content einblenden
+		for(i=0; i<targets.length; i++){
+			var target = targets[i];
+			target.classList.remove('is-hidden');
+		}
+		
+		// Aktiven Navipunkt markieren
+		var elements = ele.parentElement.querySelectorAll('.tab-item');
+		for(i=0; i<elements.length; i++){
+			var element = elements[i];
+			element.classList.remove('is-active');
+		}				
+		ele.classList.add('is-active');
+	
 	}
 
 

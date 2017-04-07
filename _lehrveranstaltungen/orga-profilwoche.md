@@ -2,7 +2,7 @@
 titel: ProfiL2 Projektwoche
 kuerzel: v-pb
 verantwortlich: lk,cn
-typ: orga
+typ: other
 pflicht: false
 termine: 2017-05-18 11:00|,2017-05-19 11:00|
 empfohlene-voraussetzungen: 

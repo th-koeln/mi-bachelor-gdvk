@@ -4,59 +4,72 @@ layout: default
 
 {% assign lehrveranstaltungen = (site.lehrveranstaltungen | sort: 'title')) %}
 
+
 <section class="section">
 	<div class="container">
-		<div class="content">
-	        <h2 class="title is-1">Vorträge, Workshops, Trainings und Feedbacks</h2>
+		
+		<h2 class="title is-1">Vorträge, Workshops, Trainings und Feedbacks</h2>
 			
+		<div class="tabs is-tab-navigation is-non-print">
+			<ul>
+				<li class="tab-item" data-tab="vortrag"><a >Vorträge</a></li>
+				<li class="tab-item" data-tab="workshop"><a >Workshops</a></li>
+				<li class="tab-item" data-tab="training"><a >Trainings</a></li>
+				<li class="tab-item" data-tab="feedback"><a >Feedback</a></li>
+				<li class="tab-item" data-tab="pruefung"><a >Prüfung</a></li>
+			</ul>
+		</div>
+		
+		<div class="content is-tab-wrap">
 			{% for lehrveranstaltung in lehrveranstaltungen %}
-			<h3 class="title is-2">{{lehrveranstaltung.titel}}</h3>
-			
-			{% include /functions/resolve-types.html typ=lehrveranstaltung.typ %}
-
-			<dl class="overview">
-			
-			
-				{% assign check = lehrveranstaltung.dauer | strip_newlines %}
-				{% if check != ""  %}
-				<dt>Dauer</dt><dd>{{lehrveranstaltung.dauer}} min</dd>
-				{% endif %}
+			{% if lehrveranstaltung.typ != "other" %}
+			<div class="is-tab-content is-{{lehrveranstaltung.typ}} is-overview-item" id="{{lehrveranstaltung.typ}}">
 				
-				{% assign check = lehrveranstaltung.termine | strip_newlines %}
-				{% if check != ""  %}
-				{% include /functions/resolve-dates.html termine=lehrveranstaltung.termine %}
-				<dt>Termine</dt><dd>{{termine}}</dd>
-				{% endif %}
+					<h3 class="title is-3">{{lehrveranstaltung.titel}}</h3>
 				
-				{% assign check = lehrveranstaltung.typ | strip_newlines %}
-				{% if check != ""  %}
-				<dt>Typ</dt><dd>{{typ-name}}</dd>
-				<dt>Maximale Teilnehmerzahl</dt><dd>{{typ-max-teilnehmer}}</dd>
-				{% endif %}
+					{% include /functions/resolve-types.html typ=lehrveranstaltung.typ %}
 				
-				{% include /functions/resolve-names.html verantwortlich=lehrveranstaltung.verantwortlich %}
-				<dt>Verantwortlich</dt><dd>{{verantwortliche}}</dd>
+					<dl class="overview">
+						{% assign check = lehrveranstaltung.dauer | strip_newlines %}
+						{% if check != ""  %}
+						<dt>Dauer</dt><dd>{{lehrveranstaltung.dauer}} min</dd>
+						{% endif %}
 				
-				{% assign check = lehrveranstaltung.empfohlene-voraussetzungen | strip_newlines %}
-				{% if check != ""  %}
-				{% include /functions/resolve-voraussetzungen.html voraussetzungen=lehrveranstaltung.empfohlene-voraussetzungen %}
-				<dt>Empfohlene Voraussetzungen</dt><dd>{{voraussetzungen}}</dd>
-				{% endif %}
+						{% assign check = lehrveranstaltung.termine | strip_newlines %}
+						{% if check != ""  %}
+						{% include /functions/resolve-dates.html termine=lehrveranstaltung.termine %}
+						<dt>Termine</dt><dd>{{termine | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember" }}</dd>
+						{% endif %}
 				
+						{% assign check = lehrveranstaltung.typ | strip_newlines %}
+						{% if check != ""  %}
+						<dt>Typ</dt><dd>{{typ-name}}</dd>
+						<dt>Maximale Teilnehmerzahl</dt><dd>{{typ-max-teilnehmer}}</dd>
+						{% endif %}
 				
-
-			</dl>
-			
-			<p>
-			{% assign check = lehrveranstaltung.info | strip_newlines %}
-			{% if check != ""  %}
-			{{lehrveranstaltung.info}}
+						{% include /functions/resolve-names.html verantwortlich=lehrveranstaltung.verantwortlich %}
+						<dt>Verantwortlich</dt><dd>{{verantwortliche}}</dd>
+				
+						{% assign check = lehrveranstaltung.empfohlene-voraussetzungen | strip_newlines %}
+						{% if check != ""  %}
+						{% include /functions/resolve-voraussetzungen.html voraussetzungen=lehrveranstaltung.empfohlene-voraussetzungen %}
+						<dt>Empfohlene Voraussetzungen</dt><dd>{{voraussetzungen}}</dd>
+						{% endif %}
+				
+					</dl>
+				
+					<p>
+						{% assign check = lehrveranstaltung.info | strip_newlines %}
+						{% if check != ""  %}
+						{{lehrveranstaltung.info}}
+						{% endif %}
+						
+					</p>
+					
+					<p><a class="button is-primary is-outlined" href="{{site.baseurl}}{{lehrveranstaltung.url}}">mehr zu {{lehrveranstaltung.titel}}</a></p>
+			</div>
 			{% endif %}
-			
-			<a href="{{site.baseurl}}{{lehrveranstaltung.url}}">mehr zu {{lehrveranstaltung.titel}}</a>
-			</p>
-				
-			{% endfor %}	
+			{% endfor %}
 		</div>
 	</div>
 </section>

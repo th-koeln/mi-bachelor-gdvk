@@ -9,11 +9,14 @@ workshop:
 vortrag:
   name: Vortrag
   max-teilnehmer: beliebig viele
-  
 support-all:
   name: Support 
   max-teilnehmer: beliebig viele
   
 feedback:
   name: Feedback & Support 
+  max-teilnehmer: 20
+
+pruefung:
+  name: Prüfung/ Präsentation 
   max-teilnehmer: 20

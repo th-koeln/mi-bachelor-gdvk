@@ -30,13 +30,13 @@ Sec End: {{sec-end}}<br>
 Hours Diff: {{hours-diff}}<hr>
 {% endcomment %} 
 
-<div class="columns">
+<!--div class="columns"-->
 {% assign day1 = days["day-1"] %}
 {% include /timetable-day.html day=day1 starttime=starttime difftime=difftime time-correction=time-correction %}
 
 {% assign day2 = days["day-2"] %}
 {% include /timetable-day.html day=day2 starttime=starttime difftime=difftime time-correction=time-correction %}
-</div>
+<!--/div-->
 
 {% endif %}
 		

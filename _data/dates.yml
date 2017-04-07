@@ -3,63 +3,75 @@ week-1:
     datum: 2017-04-27
     start: "14:00"
     end: "18:00"
+    name: Donnerstag
   day-2:
     datum: 2017-04-28
     start: "11:00"
     end: "18:00"
-    
+    name: Freitag
 week-2:
   day-1:
     datum: 2017-05-04
     start: "14:00"
     end: "18:00"
+    name: Donnerstag
   day-2:
     datum: 2017-05-05
     start: "11:00"
     end: "18:00"
-
+    name: Freitag
 week-3:
   day-1:
     datum: 2017-05-11
     start: "14:00"
     end: "18:00"
+    name: Donnerstag
   day-2:
     datum: 2017-05-12
     start: "11:00"
     end: "18:00"
+    name: Freitag
 week-4:
   day-1:
     datum: 2017-05-18
     start: "14:00"
     end: "18:00"
+    name: Donnerstag
   day-2:
     datum: 2017-05-19
     start: "11:00"
     end: "18:00"
+    name: Freitag
 week-5:
   day-1:
     datum: 2017-05-25
     start: "14:00"
     end: "18:00"
+    name: Donnerstag
   day-2:
     datum: 2017-05-26
     start: "11:00"
     end: "18:00"
+    name: Freitag
 week-6:
   day-1:
     datum: 2017-06-01
     start: "14:00"
     end: "18:00"
+    name: Donnerstag
   day-2:
     datum: 2017-06-02
     start: "11:00"
     end: "18:00"
+    name: Freitag
 week-7:
   day-1:
     datum: 2017-06-08
     start: "14:00"
     end: "18:00"
+    name: Donnerstag
   day-2:
     datum: 2017-06-09
     start: "11:00"
     end: "18:00"
+    name: Freitag

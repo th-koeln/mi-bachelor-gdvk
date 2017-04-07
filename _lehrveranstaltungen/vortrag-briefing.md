@@ -1,7 +1,7 @@
 ---
 titel: Projektbriefing
 kuerzel: v-pb
-verantwortlich: lk,cn
+verantwortlich: lk
 typ: vortrag
 pflicht: false
 termine: 2017-04-27 16:00|3.102

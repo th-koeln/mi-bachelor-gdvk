@@ -14,6 +14,9 @@
 /* BASE RULES */
 /**************/
 
+.button{
+	font-size: $bfs;
+}
 
 /*hr{
 	-moz-border-bottom-colors: none;
@@ -70,7 +73,7 @@ $tt-grid-height: 60px;
 		
 		.timetable-grid{
 			height: $tt-grid-height;
-			border-top: solid 1px #dd1166;
+			border-top: solid 1px #ccc;
 				
 			.grid-time{
 				font-size: $bfs /2;
@@ -86,7 +89,8 @@ $tt-grid-height: 60px;
 			
 			.title, .subtitle{
 				color: #fff;
-				font-size: 0.8rem;
+				font-size: 0.9rem;
+				line-height: 110%;
 			}
 			
 			.title + .subtitle{
@@ -137,6 +141,9 @@ $tt-grid-height: 60px;
 	padding-top: $bfs *2;
 }
 
+.is-overview-item{
+	margin-bottom: $bfs *2;
+}
 
 
 .content{
@@ -166,14 +173,14 @@ $tt-grid-height: 60px;
 			display: block;
 			float: left;
 			min-width: 10px;
-			padding: $bfs /4 0;
+			padding: $bfs /8 0;
 			font-weight: bold;
 			color: $info;
 		}
 		
 		dd{
-			border-bottom: solid 1px $grey-light;
-			padding: $bfs /4 0;
+			/*border-bottom: solid 1px $grey-light; */
+			padding: $bfs /8 0;
 			
 		}
 		

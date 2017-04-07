@@ -2,7 +2,7 @@
 titel: Feiertag
 kuerzel: v-pb
 verantwortlich: lk,cn
-typ: orga
+typ: other
 pflicht: false
 termine: 2017-05-25 11:00|
 empfohlene-voraussetzungen: 
