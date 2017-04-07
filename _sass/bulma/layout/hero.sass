@@ -18,32 +18,31 @@
     display: none
 
 .hero-buttons
-  margin-top: 1.5rem
+  margin-top: 20px
   // Responsiveness
   +mobile
     .button
       display: flex
       &:not(:last-child)
-        margin-bottom: 0.75rem
+        margin-bottom: 10px
   +tablet
     display: flex
     justify-content: center
     .button:not(:last-child)
-      margin-right: 1.5rem
+      margin-right: 20px
 
 // Containers
 
 .hero-head,
 .hero-foot
-  flex-grow: 0
   flex-shrink: 0
 
 .hero-body
   flex-grow: 1
   flex-shrink: 0
-  padding: 3rem 1.5rem
+  padding: 40px 20px
   // Responsiveness
-  +from($widescreen)
+  +from(1240px)
     padding-left: 0
     padding-right: 0
 
@@ -68,11 +67,11 @@
     &.is-#{$name}
       background-color: $color
       color: $color-invert
-      a,
-      strong
-        color: inherit
       .title
         color: $color-invert
+        a,
+        strong
+          color: inherit
       .subtitle
         color: rgba($color-invert, 0.9)
         a,
@@ -132,13 +131,13 @@
   &.is-medium
     +tablet
       .hero-body
-        padding-bottom: 9rem
-        padding-top: 9rem
+        padding-bottom: 120px
+        padding-top: 120px
   &.is-large
     +tablet
       .hero-body
-        padding-bottom: 18rem
-        padding-top: 18rem
+        padding-bottom: 240px
+        padding-top: 240px
   &.is-fullheight
     min-height: 100vh
     .hero-body

@@ -1,39 +1,20 @@
-.panel
-  font-size: $size-normal
-  &:not(:last-child)
-    margin-bottom: 1.5rem
-
-.panel-heading,
-.panel-tabs,
-.panel-block
-  border-bottom: 1px solid $border
-  border-left: 1px solid $border
-  border-right: 1px solid $border
-  &:first-child
-    border-top: 1px solid $border
+.panel-icon
+  +fa(14px, 16px)
+  color: $text-light
+  float: left
+  margin: 0 4px 0 -2px
+  .fa
+    font-size: inherit
+    line-height: inherit
 
 .panel-heading
   background-color: $background
-  border-radius: $radius $radius 0 0
+  border-bottom: 1px solid $border
+  border-radius: 4px 4px 0 0
   color: $text-strong
-  font-size: 1.25em
-  font-weight: $weight-light
-  line-height: 1.25
-  padding: 0.5em 0.75em
-
-.panel-tabs
-  align-items: flex-end
-  display: flex
-  font-size: 0.875em
-  justify-content: center
-  a
-    border-bottom: 1px solid $border
-    margin-bottom: -1px
-    padding: 0.5em
-    // Modifiers
-    &.is-active
-      border-bottom-color: $link-active-border
-      color: $link-active
+  font-size: $size-medium
+  font-weight: 300
+  padding: 10px
 
 .panel-list
   a
@@ -41,34 +22,36 @@
     &:hover
       color: $link
 
-.panel-block
-  align-items: center
-  color: $text-strong
+.panel-tabs
   display: flex
-  justify-content: flex-start
-  padding: 0.5em 0.75em
-  input[type="checkbox"]
-    margin-right: 0.75em
-  & > .control
-    flex-grow: 1
-    flex-shrink: 1
-    width: 100%
-  &.is-active
-    border-left-color: $link
-    color: $link-active
-    .panel-icon
-      color: $link
+  font-size: $size-small
+  padding: 5px 10px 0
+  justify-content: center
+  a
+    border-bottom: 1px solid $border
+    margin-bottom: -1px
+    padding: 5px
+    // Modifiers
+    &.is-active
+      border-bottom-color: $link-active-border
+      color: $link-active
+  &:not(:last-child)
+    border-bottom: 1px solid $border
 
-a.panel-block,
-label.panel-block
-  cursor: pointer
+.panel-block
+  color: $text-strong
+  display: block
+  line-height: 16px
+  padding: 10px
+  &:not(:last-child)
+    border-bottom: 1px solid $border
+
+a.panel-block
   &:hover
     background-color: $background
 
-.panel-icon
-  +fa(14px, 1em)
-  color: $text-light
-  margin-right: 0.75em
-  .fa
-    font-size: inherit
-    line-height: inherit
+.panel
+  border: 1px solid $border
+  border-radius: $radius-large
+  &:not(:last-child)
+    margin-bottom: 20px

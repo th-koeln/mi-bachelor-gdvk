@@ -116,6 +116,10 @@ $tt-grid-height: 60px;
 			&.feedback{
 				background-color: $mi-blau;
 			}
+			
+			&.orga{
+				background-color: $mi-grau;
+			}
 		}
 	
 	}
@@ -132,11 +136,18 @@ $tt-grid-height: 60px;
 	
 	.card{
 		
+		display: flex;
+    flex-direction: column;
+		
 		&.is-training .card-header{
 			background-color: $mi-lila;
 			> .card-header-title{
 				color: #fff;
 			}
+		}
+		
+		& .card-content{
+			flex-grow: 1;
 		}
 		
 		&.is-workshop .card-header{
@@ -320,37 +331,6 @@ $tt-grid-height: 60px;
 		}
 	}
 	
-}
-
-#selbstbericht{
-	
-	
-	
-	counter-reset: h1counter;
-    
-    h1{
-	    counter-increment: h1counter;
-	    counter-reset: h2counter; 
-	    &:before{ content: counter(h1counter) ".\0000a0"; }
-    }
-    
-    h2{
-		counter-increment: h2counter;
-		counter-reset: h3counter;
-		&:before{ content: counter(h1counter) "." counter(h2counter) ".\0000a0"; }
-    }
-    
-    h3{
-		counter-increment: h3counter;
-		&:before{ content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) ".\0000a0"; }
-    }
-    
-    h4{
-		counter-increment: h4counter;
-		&:before{ content: counter(h1counter) "." counter(h2counter) "." counter(h3counter) "." counter(h4counter) ".\0000a0"; }
-    }
-
-
 }
 
 .modulbeschreibung{
