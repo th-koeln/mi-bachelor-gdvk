@@ -8,7 +8,7 @@
 {% assign week-count = week-count | plus: 1 %}
 
 <div class="timetable">
-	<h2 class="title is-3">Woche {{week-count}}</h2>
+	<h2 class="title is-2">Woche {{week-count}}</h2>
 {% for days in week %}
 
 {% assign check = days["day-1"].datum | strip_newlines %}
