@@ -6,7 +6,7 @@
 //
 @import "variables";
 @import "bulma";
-//@import "reset";
+
 
 // Syntax highlighting @import is at the bottom of this file
 
@@ -120,6 +120,62 @@ $tt-grid-height: 60px;
 	
 	}
 	
+}
+
+/**************/
+/* Veranstaltungsübersicht
+/**************/
+
+.is-tab-wrap{
+	display: flex;
+	flex-wrap: wrap;
+	
+	.card{
+		
+		&.is-training .card-header{
+			background-color: $mi-lila;
+			> .card-header-title{
+				color: #fff;
+			}
+		}
+		
+		&.is-workshop .card-header{
+			background-color: $mi-gruen;
+			> .card-header-title{
+				color: #fff;
+			}
+		}
+		
+		&.is-vortrag .card-header{
+			background-color: $mi-pink;
+			> .card-header-title{
+				color: #fff;
+			}
+		}
+		
+		&.is-feedback .card-header{
+			background-color: $mi-blau;
+			> .card-header-title{
+				color: #fff;
+			}
+		}
+		
+	}
+		
+	.is-tab-content{
+		flex-basis: 30%;
+		margin-right: 3%;
+		
+		@media (max-width: 999px) { 
+			flex-basis: 47%;
+			margin-right: 3%;
+		}
+		
+		@media (max-width: 768px) { 
+			flex-basis: 100%;
+			margin-right: 0;
+		}
+	}
 }
 
 
