@@ -70,7 +70,7 @@
 							{% include /functions/resolve-types.html typ=veranstaltung.typ %}
 							<div class="veranstaltung {{veranstaltung.typ}}" style="margin-top: {{termin-start-min}}px;  height: {{veranstaltung.dauer}}px">
 								{% include /functions/resolve-names.html verantwortlich=veranstaltung.verantwortlich %}
-								<p class="title">{{veranstaltung.titel}}</p>
+								<p class="title"><span class="is-hidden-tablet">{{termin | date: '%d. %B %Y, %H:%M Uhr'}}: </span>{{veranstaltung.titel}}</p>
 
 								{% if raum.size > 1 %}
 								{% assign raumnummer = raum | append: "" %}

@@ -9,8 +9,8 @@
 {% assign raum = entry-data[1] %}
 
 {% assign new_termin = termin | date: '%s' | minus: 3600 %}
-{% assign t = new_termin | date: '%d. %B %Y, %H:%M Uhr' %}
+{% assign t = new_termin | date: '%d. %B %Y, %H:%M Uhr' | replace:"January","Januar" | replace:"Februar","February" | replace:"March","März" | replace:"May","Mai" | replace:"June","Juni" | replace:"July","Juli" | replace:"December","Dezember"  %}
 {% assign dates = dates | push: t %}
 {% endfor %}
 
-{% assign termine = dates | join: ", " %}
+{% assign termine = dates | join: " // " %}

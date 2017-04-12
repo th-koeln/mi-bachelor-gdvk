@@ -19,7 +19,6 @@ layout: default
 
 			<dl class="overview">
 			
-			
 				{% assign check = page.dauer | strip_newlines %}
 				{% if check != ""  %}
 				<dt>Dauer</dt><dd>{{page.dauer}} min</dd>
@@ -46,24 +45,20 @@ layout: default
 				<dt>Empfohlene Voraussetzungen</dt><dd>{{voraussetzungen}}</dd>
 				{% endif %}
 				
-				
+				{% assign check = page.info | strip_newlines %}
+				{% if check != ""  %}
+				<dt>Fragestellung</dt><dd>{{page.info}}</dd>
+				{% endif %}
 
 			</dl>
-			
-			<p>
-			{% assign check = page.info | strip_newlines %}
-			{% if check != ""  %}
-			{{page.info}}
-			{% endif %}
-			</p>
 		</div>
 	</div>
-</section>
-
-<section class="section modulbeschreibung">
-	<div class="container">
-		<div class="content">
-		{{ content }}
-  		</div>
+	
+	<div class="modulbeschreibung">
+		<div class="container">
+			<div class="content">
+			{{ content }}
+	  		</div>
+		</div>
 	</div>
 </section>

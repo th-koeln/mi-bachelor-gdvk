@@ -74,9 +74,10 @@ $tt-grid-height: 60px;
 		.timetable-grid{
 			height: $tt-grid-height;
 			border-top: solid 1px #ccc;
-				
+			@media (max-width: 999px) { border-top: none; height: auto; }
 			.grid-time{
 				font-size: $bfs /2;
+				@media (max-width: 999px) { display: none; }
 			}
 			
 		}
@@ -148,6 +149,19 @@ $tt-grid-height: 60px;
 		
 		& .card-content{
 			flex-grow: 1;
+			
+			dl.overview-card{
+				dd, dt{
+					display: inline-block;
+					float: none;
+				}
+				
+				dd + dt:before{
+					content: " // ";
+					font-weight: 100;
+					color: #999;
+				}
+			}
 		}
 		
 		&.is-workshop .card-header{
@@ -221,9 +235,9 @@ $tt-grid-height: 60px;
 
 
 
-	h1{ font-size: $bfs * 1.4; font-weight: 500;}
-	h2{ font-size: $bfs * 1.2; font-weight: 500;}
-	h3{ font-size: $bfs * 1.1; font-weight: 500;}
+	h1{ font-size: $bfs * 1.6; font-weight: 500;}
+	h2{ font-size: $bfs * 1.4; font-weight: 500;}
+	h3{ font-size: $bfs ; font-weight: 700;}
 	h4{ font-size: $bfs; font-weight: 600;}
 	h5{ font-size: $bfs; font-weight: 600;}
 	h6{ font-size: $bfs; font-weight: 600; }
@@ -383,14 +397,15 @@ $tt-grid-height: 60px;
 	}
 }
 
-@media (max-width: 640px) { 
+@media (max-width: 999px) { 
 	html, body{
-		font-size: 80%;
+		/*font-size: 60%;
+		line-height: 110%;*/
 		
 		.content{
-			h1{ font-size: $bfs * 1.2; font-weight: 500;}
-			h2{ font-size: $bfs * 1.1; font-weight: 500;}
-			h3{ font-size: $bfs * 1.1; font-weight: 500;}
+			h1{ font-size: $bfs * 1.4; font-weight: 500;}
+			h2{ font-size: $bfs * 1.2; font-weight: 500;}
+			h3{ font-size: $bfs; font-weight: 700;}
 			h4{ font-size: $bfs; font-weight: 600;}
 			h5{ font-size: $bfs; font-weight: 600;}
 			h6{ font-size: $bfs; font-weight: 600; }
