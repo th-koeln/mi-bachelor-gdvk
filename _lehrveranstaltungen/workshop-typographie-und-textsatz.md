@@ -12,3 +12,14 @@ raum: 0.504
 info: Wie gestalte ich Text sinnvoll und gut?
 ---
 
+## Worum geht es?
+
+## Was bringt mir der Workshop?
+
+## Was sollte ich vorbereiten?
+
+## Was muss ich mitbringen
+
+## Material
+
+- [Briefvorlage](../../download/workshop-textsatz-typographie/Gdvk_briefvorlage.jpg)
