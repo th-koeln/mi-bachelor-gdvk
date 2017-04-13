@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-einspalter
 titel: Niveaustufen und Deliverables
 ---
 
