@@ -11,3 +11,8 @@ dauer: 210
 info: Wie können wir unsere Entwürfe systematisch in Sketch oder Figma aufbauen und auf verschiedenen Devices anschauen und überprüfen?
 ---
 
+Ich hab recherchiert wie sich ein paar Vorgänge in den Tools verbessern ließen.
+
+Sketch bietet die Möglichkeit Elemente als Symbols zu verwenden. Dadurch hat man SmartObjects die sich auf eine veränderbare Referenz beziehen.
+
+Figma biete leider noch keine solche Funktion an. Dafür ist die Collaboration sehr fortschrittlich. Mehrere Leute können gleichzeitig an einem Projekt entwickeln und mit Kommentaren diskutieren.
