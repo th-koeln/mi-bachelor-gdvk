@@ -96,6 +96,8 @@ exclude:
 collections:
   lehrveranstaltungen:
     output: true    
+  faq:
+    output: true    
 
 defaults:
   - 
@@ -104,3 +106,9 @@ defaults:
       type: lehrveranstaltungen
     values:
       layout: lehrveranstaltung
+  - 
+    scope:
+      path: ""
+      type: faq
+    values:
+      layout: faq

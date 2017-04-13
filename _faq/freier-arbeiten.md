@@ -1,4 +1,6 @@
-## Warum können wir im Modul nicht freier Arbeiten?
+---
+titel: Warum können wir im Modul nicht freier Arbeiten?
+---
 
 Der rote Faden des Moduls ist ein Projekt. Der Rahmen des Projekts ist tatsächlich ziemlich straff und einige Studierende jammern stets darüber. Folgende Gedanken stehen dahinter:
 

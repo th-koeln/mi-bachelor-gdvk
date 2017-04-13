@@ -3,7 +3,13 @@ layout: page
 titel: Konzept
 ---
 
-# Worum geht es?
+{% include functions/resolve-urls.html target="mi-wiki-pruefung" %}
+{% assign wiki-pruefung = link %}
+
+{% include functions/resolve-urls.html target="mi-wiki" %}
+{% assign wiki = link %}
+
+## Worum geht es?
 
 Das Modul "Grundlagen der visuellen Kommunikation" ist im Medieninformatik Bachelor im zweiten Fachsemester verankert. Im Rahmen des Moduls sollen die Studierenden die Kompetenz erlangen in interdisziplinären Teams die Design-Perspektive zu verstehen und selbige einzunehmen. Sie sollen in die Lage versetzt werden, einen bestehenden Gestaltungskontext zu verstehen und zu erweitern. Im Rahmen des Moduls sollen die Studierenden eine gestalterische Grundkompetenz aufbauen.
 
@@ -14,7 +20,7 @@ Ok, jetzt mal etwas weniger didaktisch formuliert. Fangen wir vorne an. Wir sind
 - fachlich argumentieren und diskutieren können
 - ein Gestaltungssystem so aufbereiten können, dass es implementierbar ist
 
-# Lernziele
+## Lernziele
 
 Mit dem Modul sollen die folgenden Lernziele erreicht werden:
 
@@ -24,7 +30,7 @@ Mit dem Modul sollen die folgenden Lernziele erreicht werden:
 
 - Die Studierenden können in einem gegebenen Gestaltungskontext, unter Berücksichtigung von Gestaltungsregeln (Raster, Layout, Typographie, etc.), eigene Gestaltungslösungen entwickeln, systematisch variieren und argumentieren um gegebene funktionale und/oder kommunikative Ziele zu adressieren.
 
-## Ausrichtung auf MedieninformatikerInnen in der Schnittstellenrolle zum Design
+### Ausrichtung auf MedieninformatikerInnen in der Schnittstellenrolle zum Design
 
 In interdisziplinären Projektteams nehmen Medieninformatiker oftmals eine Schnittstellenrolle ein. Hier fühlt man sich zumeist sicherer und professioneller, wenn man diskussionsfähig ist. Jede Disziplin hat ihre eigene Fachsprache. Das ist im Design genauso. Wir können im Team besser agieren, wenn wir die Fachsprache verstehen und anwenden können. Wie groß ist der Durchschuss? Sollten wir die Headlines besser in Versalien setzen? Wie lang läuft die Copy? Und warum sind die BUs so klein? Welcher Schriftschnitt ist das? Mit dererlei Fragen und Aussagen sollten wir umgehen können.
 
@@ -46,7 +52,7 @@ Das Projekt wird in Zweierteams durchgeführt.
 
 ### Prüfung
 
-Die Prüfungsform ist eine Projektpräsentationsprüfung. Dabei präsentieren die Teams ihr Projekt in zwanzig Minuten. In der Prüfung sollten sie möglichst umfassend und professionell erläutern wie sie im Projekt vorgegangen sind und warum welche Entscheidungen getroffen wurden. Zur Prüfung müssen sich die Studierenden im PSSO anmelden und einen Termin im Medieninformatik Wiki buchen. Die Bewertung erfolgt mit Hilfe eines Niveaustufenmodells. Dies sollten sich die Studierenden unbedingt zur Projektlaufzeit und vor der Prüfung anschauen um zu wissen, was erwartet wird und ihre Arbeit entsprechend auszurichten.
+Die Prüfungsform ist eine Projektpräsentationsprüfung. Dabei präsentieren die Teams ihr Projekt in zwanzig Minuten. In der Prüfung sollten sie möglichst umfassend und professionell erläutern wie sie im Projekt vorgegangen sind und warum welche Entscheidungen getroffen wurden. Zur Prüfung müssen sich die Studierenden im PSSO anmelden und einen Termin im {{wiki-pruefung}} buchen. Die Bewertung erfolgt mit Hilfe eines [Niveaustufenmodells](niveaustufen/). Dies sollten sich die Studierenden unbedingt zur Projektlaufzeit und vor der Prüfung anschauen um zu wissen, was erwartet wird und ihre Arbeit entsprechend auszurichten.
 
 
 ### Veranstaltungsarten
@@ -55,7 +61,7 @@ Die Prüfungsform ist eine Projektpräsentationsprüfung. Dabei präsentieren di
 
 **Workshops** bringen Theorie und Praxis zusammen, schulen und trainieren in einem bestimmten Themenfeld, erfordern den sicheren Umgang mit den trainierten Softwaretool, erfordern das Grundwissen aus den Vorträgen. Die Teilnahme wird dringend empfohlen. Zu Workshops muss sich im Medieninformatik Wiki angemeldet werden.
 
-**Feedbacks** geben den Studierenden die Chance, Rückmeldung zu Ihrer Arbeit, dem aktuellen Stand und Ihrem Fortschritt zu bekommen; müssen von den Studierenden gut vorbereitet sein und durch sie dokumentiert werden. Es müssen zwei Termine wahrgenommen werden. Es dürfen aber auch mehr Termine genutzt werden. Zu Feedbacks muss sich im Medieninformatik Wiki angemeldet werden.
+**Feedbacks** geben den Studierenden die Chance, Rückmeldung zu Ihrer Arbeit, dem aktuellen Stand und Ihrem Fortschritt zu bekommen; müssen von den Studierenden gut vorbereitet sein und durch sie dokumentiert werden. Es müssen zwei Termine wahrgenommen werden. Es dürfen aber auch mehr Termine genutzt werden. Zu Feedbacks muss sich im {{wiki}} angemeldet werden.
 
 Hier finden Sie eine [Übersicht über alle angebotenen Veranstaltung](angebote/) im Rahmen des Moduls.
 

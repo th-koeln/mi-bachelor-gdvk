@@ -49,7 +49,7 @@
 	.menu-list{
 		a{
 			padding-left: 0;
-			font-size: $bfs * 0.6;
+			font-size: $bfs * 0.8;
 		}
 	}
 }
@@ -65,8 +65,20 @@ $tt-grid-height: 60px;
 	
 	.datum{
 		height: $tt-grid-height;
+		@media (max-width: 999px) { height: auto !important; }
 	}
 	
+	@media (max-width: 999px) {
+		.datum:nth-of-type(2){
+			margin-top: $bfs *2;
+		}
+		
+		h2{
+			border-bottom: solid 1px #000;
+			padding-bottom: $bfs /4;
+			padding-top: $bfs *2;
+		}
+	}
 	.timetable-wrap{
 		
 		position: relative;
@@ -87,6 +99,12 @@ $tt-grid-height: 60px;
 			border-bottom: solid 1px rgba(255,255,255,0.7);
 			border-right: solid 1px rgba(255,255,255,0.7);
 			padding: $bfs /2;
+			
+			@media (max-width: 999px) { 
+				height: auto !important; 
+				padding-top: $bfs;
+				padding-bottom: $bfs * 1.5;
+			}
 			
 			.title, .subtitle{
 				color: #fff;
@@ -233,8 +251,6 @@ $tt-grid-height: 60px;
 		max-width: $bfs * 36;		
 	}
 
-
-
 	h1{ font-size: $bfs * 1.6; font-weight: 500;}
 	h2{ font-size: $bfs * 1.4; font-weight: 500;}
 	h3{ font-size: $bfs * 1.2; font-weight: 500;}
@@ -242,9 +258,9 @@ $tt-grid-height: 60px;
 	h5{ font-size: $bfs; font-weight: 600;}
 	h6{ font-size: $bfs; font-weight: 600; }
 	
-	ul{
+	/*ul{
 		margin-left: 1em;
-	}
+	}*/
 	
 	dl{
 		
@@ -347,10 +363,37 @@ $tt-grid-height: 60px;
 	
 }
 
-.modulbeschreibung{
+.modulbeschreibung, .zweispalter{
 	h2{
 		border-top: dotted 1px $grey-light;
 		padding-top: $bfs;
+	}
+	
+	.content{
+		
+		@media (min-width: 999px) { 
+			> *{
+				margin-left: 50% !important;
+			}
+	
+			& > h1, & > h2, & > h3, & > h4, & > h5, & > h6{
+				margin-left: 0 !important;
+				float: left;
+				width: 48%;
+				padding-left: 20%;
+				margin-top: 0 !important;
+				text-align: right;
+				hyphens: none;
+			}
+			
+			& > h1, & > h2 {
+				border-top: dotted 1px #aaa;
+				padding-top: $bfs;
+				text-align: left;
+				padding-right: 20%;
+				padding-left: 0;
+			}
+		}
 	}
 }
 
@@ -360,14 +403,6 @@ $tt-grid-height: 60px;
 	.menu-list{
 		padding-left: $bfs *2;
 	}
-}
-
-.is-old *{
-	color: $mi-gruen !important;
-}
-
-.is-passive *{
-	color: $mi-lila !important;
 }
 
 .is-small{

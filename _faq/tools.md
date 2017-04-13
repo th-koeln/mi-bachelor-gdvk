@@ -1,13 +1,18 @@
 ---
-titel: Variantenbildung
-kuerzel: w-v
-verantwortlich: lk,cn
-typ: workshop
-pflicht: false
-termine: 2017-05-12 13:30, 2017-05-12 16:00
-empfohlene-voraussetzungen: t-sb oder t-fb
-published: true
-dauer: 120
-info: Gutes Design entsteht zumeist durch die Auswahl der richtigen Varianten für ein Teilproblem. Doch wie erzeuge ich systematisch Varianten?
+titel: Welche Tools dürfen wir verwenden?
 ---
 
+Kurze Antwort: alle. Zur Erstellung der Designmockups und Pattern Library gibt es eine ganze Reihe möglicher Tools. Hier eine Auswahl:
+- Sketch
+- Figma
+- Adobe Experience Design
+- Adobe Comp
+- Adobe Photoshop
+- Affinity Designer
+- Origami Studio
+- Proto.io
+- Framer
+- Invision
+- Flinto
+
+Aber auch mit weniger spezialisierten Tools wie Apple Keynote und Microsoft Powerpoint lassen sich oftmals gar keine schlechten Mockups erzeugen.
