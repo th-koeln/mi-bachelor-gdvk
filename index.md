@@ -14,22 +14,6 @@ Ok, jetzt mal etwas weniger didaktisch formuliert. Fangen wir vorne an. Wir sind
 - fachlich argumentieren und diskutieren können
 - ein Gestaltungssystem so aufbereiten können, dass es implementierbar ist
 
-## Niemand fühlt sich gerne wie ein Depp.
-
-In interdisziplinären Projektteams nehmen Medieninformatiker oftmals eine Schnittstellenrolle ein. Hier fühlt man sich zumeist sicherer und professioneller, wenn man diskussionsfähig ist. Jede Disziplin hat ihre eigene Fachsprache. Das ist im Design genauso. Wir können im Team besser agieren, wenn wir die Fachsprache verstehen und anwenden können. Wie groß ist der Durchschuss? Sollten wir die Headlines besser in Versalien setzen? Wie lang läuft die Copy? Und warum sind die BUs so klein? Welcher Schriftschnitt ist das? Mit dererlei Fragen und Aussagen sollten wir umgehen können.
-
-## Warum können wir im Modul nicht freier Arbeiten?
-
-Der rote Faden des Moduls ist ein Projekt. Der Rahmen des Projekts ist tatsächlich ziemlich straff und einige Studierende jammern stets darüber. Folgende Gedanken stehen dahinter:
-
-**Kein Logo für Onkel Paul:** „Hey, mein Onkel hat ne Firma und die brauchen unbedingt ein neues Logo.“. Dies ist im Grunde eine valide Aufgabenstellung, aber leider nicht im Rahmen dieses Moduls, denn der Gedanken hierbei ist, einen Gestaltungskontext und eine Projektaufgabe für alle Teilnehmer zu formulieren. Zum einen, weil dadurch eine Vergleichbarkeit der Ergebnisse und damit auch der Leistung möglich ist, und zum anderen, damit die Teilnehmer bewusst (oder unbewusst) Lösungsansätze anderer Teams wahrnehmen, sich inspirieren lassen oder sich aktiv von anderen Lösungen differenzieren.
-
-**Fokus auf formalästhetische Fragestellungen:** Im Rahmen des Moduls versuchen wir möglichst wenig Energie in funktionale Fragestellungen zu stecken, sondern ganz bewusst die formale Ausprägung und die damit verbundenen Fragestellungen in den Mittelpunkt zu stellen. Wie gehen wir mit der Darstellungsfläche um? Welche Gestaltungselemente stehen zur Verfügung? Wie funktioniert Typographie in diesem Gestaltungskontext? Wie funktioniert das Farbkonzept und wie kann es angewendet werden? Welche Interaktionsmuster stehen zur Verfügung? 
-
-**Real-life Setup:**
-
-
-
 # Lernziele
 
 Mit dem Modul sollen die folgenden Lernziele erreicht werden:
@@ -39,3 +23,41 @@ Mit dem Modul sollen die folgenden Lernziele erreicht werden:
 - Die Studierenden können Gestaltungslösungen und -kontexte analysieren, argumentieren, diskutieren, dokumentieren und bewerten, um eigene Lösungen innerhalb eines Gestaltungskontextes generieren zu können.
 
 - Die Studierenden können in einem gegebenen Gestaltungskontext, unter Berücksichtigung von Gestaltungsregeln (Raster, Layout, Typographie, etc.), eigene Gestaltungslösungen entwickeln, systematisch variieren und argumentieren um gegebene funktionale und/oder kommunikative Ziele zu adressieren.
+
+## Ausrichtung auf MedieninformatikerInnen in der Schnittstellenrolle zum Design
+
+In interdisziplinären Projektteams nehmen Medieninformatiker oftmals eine Schnittstellenrolle ein. Hier fühlt man sich zumeist sicherer und professioneller, wenn man diskussionsfähig ist. Jede Disziplin hat ihre eigene Fachsprache. Das ist im Design genauso. Wir können im Team besser agieren, wenn wir die Fachsprache verstehen und anwenden können. Wie groß ist der Durchschuss? Sollten wir die Headlines besser in Versalien setzen? Wie lang läuft die Copy? Und warum sind die BUs so klein? Welcher Schriftschnitt ist das? Mit dererlei Fragen und Aussagen sollten wir umgehen können.
+
+## Wie funktioniert das Modul?
+
+Die Durchführung des Moduls ist etwas anders als in vielen anderen Modulen. Damit die Studierenden sich mehr auf das jeweilige Modul konzentrieren können, haben wir den Workload der Module "Audiovisuelles Medienprojekt", "Medientechnik und -produktion" und "Grundlagen der visuellen Kommunikation" zusammengelegt und wickeln die Module nacheinander, aber dafür mit doppeltem Zeitbudget ab.
+In der erstem Semesterhälfte wird das Modul "Grundlagen der visuellen Kommunikation" durchgeführt. In der zweiten Semesterhälfte stehen dann die Module "Audiovisuelles Medienprojekt" und "Medientechnik und -produktion" von Prof. Hans Kornacher auf dem Plan.
+
+### Projektform
+
+Das Modul "Grundlagen der visuellen Kommunikation" wird in Projektform durchgeführt, d.h. ein Projekt bildet den roten Faden des Moduls. Damit die Teilnehmer das Projekt möglichst gut realisieren können, bieten wir eine Reihe von Veranstaltungen wie Workshops, Softwaretrainings und Vorträge an. Diese können freiwillig und nach eigenem Ermessen besucht werden.
+
+Um Feedback zu ihren Ideen und Entwürfen zu bekommen werden regelmäßige Termine angeboten. Von diesen Terminen müssen zwei wahrgenommen werden. Damit wir als Betreuer und Dozenten sehen können, dass die Studierenden auf dem richtigen Weg sind, gibt es eine verpflichtende Zwischenpräsentation. Wenn die Studierenden inhaltliche, gestalterische oder technische Unterstützung brauchen, können Sie die Supporttermine wahrnehmen. Zu allen Veranstaltungen, außer den Vorträgen, muss sich im Medieninformatik Wiki angemeldet werden. 
+
+Das Projekt wird in Zweierteams durchgeführt.
+
+
+![Projekt als roter Faden](images/projekt.svg 'Projekt als roter Faden')
+
+### Prüfung
+
+Die Prüfungsform ist eine Projektpräsentationsprüfung. Dabei präsentieren die Teams ihr Projekt in zwanzig Minuten. In der Prüfung sollten sie möglichst umfassend und professionell erläutern wie sie im Projekt vorgegangen sind und warum welche Entscheidungen getroffen wurden. Zur Prüfung müssen sich die Studierenden im PSSO anmelden und einen Termin im Medieninformatik Wiki buchen. Die Bewertung erfolgt mit Hilfe eines Niveaustufenmodells. Dies sollten sich die Studierenden unbedingt zur Projektlaufzeit und vor der Prüfung anschauen um zu wissen, was erwartet wird und ihre Arbeit entsprechend auszurichten.
+
+
+### Veranstaltungsarten
+
+**Vorträge** geben Überblick über ein Themengebiet, zeigen theoretische Grundlagen und jede Menge Beispiele, sind interaktiv und initiieren Diskurs, legen die Basis für die professionelle Auseinandersetzung mit dem Projekt, bauen das Vokabular für die Prüfung auf. Die Teilnahme wird dringend empfohlen. Eine Anmeldung ist nicht erforderlich.
+
+**Workshops** bringen Theorie und Praxis zusammen, schulen und trainieren in einem bestimmten Themenfeld, erfordern den sicheren Umgang mit den trainierten Softwaretool, erfordern das Grundwissen aus den Vorträgen. Die Teilnahme wird dringend empfohlen. Zu Workshops muss sich im Medieninformatik Wiki angemeldet werden.
+
+**Feedbacks** geben den Studierenden die Chance, Rückmeldung zu Ihrer Arbeit, dem aktuellen Stand und Ihrem Fortschritt zu bekommen; müssen von den Studierenden gut vorbereitet sein und durch sie dokumentiert werden. Es müssen zwei Termine wahrgenommen werden. Es dürfen aber auch mehr Termine genutzt werden. Zu Feedbacks muss sich im Medieninformatik Wiki angemeldet werden.
+
+Hier finden Sie eine [Übersicht über alle angebotenen Veranstaltung](angebote/) im Rahmen des Moduls.
+
+
+

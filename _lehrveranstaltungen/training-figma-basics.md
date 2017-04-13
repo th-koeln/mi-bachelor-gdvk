@@ -1,7 +1,7 @@
 ---
 titel: Figma Basics
 kuerzel: t-fb
-verantwortlich: vs,mk,fj
+verantwortlich: fj,jp
 typ: training
 pflicht: false
 termine: 2017-04-28 14:00,2017-04-28 16:00|fehlt,2017-05-04 16:00|fehlt

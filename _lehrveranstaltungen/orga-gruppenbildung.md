@@ -1,13 +1,13 @@
 ---
-titel: Gruppenbildung & Teambörse
+titel: Gruppenbildung, Teambörse & Ausarbeitung der Niveaustufen
 kuerzel: v-pb
 verantwortlich: lk,cn
 typ: support-all
 pflicht: false
-termine: 2017-04-27 17:00|3.102 & 3.217
+termine: 2017-04-27 16:30|3.102 3.217 0.501 0.502 0.504 0.505
 empfohlene-voraussetzungen: 
 published: true
-dauer: 60
+dauer: 90
 info:
 ---
 
