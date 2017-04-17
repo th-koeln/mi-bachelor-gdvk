@@ -1,6 +1,9 @@
 {% assign lehrveranstaltung = include.lehrveranstaltung %}
-
-<div class="is-tab-content card is-{{lehrveranstaltung.typ}} is-overview-item" id="{{lehrveranstaltung.typ}}">
+{% assign verbindlichkeit = "freiwillig" %}
+{% if lehrveranstaltung.pflicht == true %}
+{% assign verbindlichkeit = "pflicht" %}
+{% endif %}
+<div class="is-tab-content card is-{{lehrveranstaltung.typ}} is-overview-item is-{{verbindlichkeit}}" id="{{lehrveranstaltung.typ}}">
 	
 	<div class="card-header">
 		<h3 class="card-header-title">{{lehrveranstaltung.titel}}</h3>

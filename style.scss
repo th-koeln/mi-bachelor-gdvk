@@ -18,6 +18,10 @@
 	font-size: $bfs;
 }
 
+body, html{
+	line-height: 130%;
+}
+
 /*hr{
 	-moz-border-bottom-colors: none;
     -moz-border-left-colors: none;
@@ -74,7 +78,7 @@ $tt-grid-height: 60px;
 		}
 		
 		h2{
-			border-bottom: solid 1px #000;
+			border-bottom: $dotted-line;
 			padding-bottom: $bfs /4;
 			padding-top: $bfs *2;
 		}
@@ -85,7 +89,7 @@ $tt-grid-height: 60px;
 		
 		.timetable-grid{
 			height: $tt-grid-height;
-			border-top: solid 1px #ccc;
+			border-top: $dotted-line;
 			@media (max-width: 999px) { border-top: none; height: auto; }
 			.grid-time{
 				font-size: $bfs /2;
@@ -198,6 +202,20 @@ $tt-grid-height: 60px;
 		
 		&.is-feedback .card-header{
 			background-color: $mi-blau;
+			> .card-header-title{
+				color: #fff;
+			}
+		}
+		
+		&.is-pruefung .card-header{
+			background-color: $mi-black;
+			> .card-header-title{
+				color: #fff;
+			}
+		}
+		
+		&.is-support-all .card-header{
+			background-color: $mi-grau;
 			> .card-header-title{
 				color: #fff;
 			}
@@ -375,6 +393,13 @@ $tt-grid-height: 60px;
 			> *{
 				margin-left: 50% !important;
 			}
+			
+			h3{
+				font-size: $bfs;
+				font-weight: 700;
+				color: $mi-black;
+				line-height: 130%;
+			}
 	
 			& > h1, & > h2, & > h3, & > h4, & > h5, & > h6{
 				margin-left: 0 !important;
@@ -392,6 +417,15 @@ $tt-grid-height: 60px;
 				text-align: left;
 				padding-right: 20%;
 				padding-left: 0;
+				
+			}
+			
+			& > h1 + p, & > h2 + p{
+				margin-top: $bfs * 4 !important;
+			}
+			
+			& > h2:not(:first-child){
+				margin-top: $bfs *3 !important;
 			}
 		}
 	}

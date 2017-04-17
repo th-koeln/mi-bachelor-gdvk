@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+{% assign links = (site.links | sort: 'title')) %}
+
+<section class="section">
+	<div class="container">
+
+		<h1 class="title is-1">Links</h1>
+		<h2 class="subtitle">Ein paar praktische Verweise rund um das Thema „Visuelle Kommunikation“</h2>
+		
+	</div>
+
+</section>
+<section class="section">
+	<div class="container">
+		<div class="links">
+		
+			<div class="content">
+				
+				{% for link in links %}
+					
+					<h2 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h2>
+					<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+
+
+	  		{% endfor %}
+	  	</div>
+		</div>
+	</div>
+</section>

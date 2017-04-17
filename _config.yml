@@ -97,7 +97,11 @@ collections:
   lehrveranstaltungen:
     output: true    
   faq:
-    output: true    
+    output: false    
+  snippets:
+    output: false  
+  links:
+    output: false    
 
 defaults:
   - 

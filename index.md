@@ -1,6 +1,6 @@
 ---
 layout: page
-titel: Konzept
+titel: Basisinformation
 ---
 
 {% include functions/resolve-urls.html target="mi-wiki-pruefung" %}
@@ -8,6 +8,15 @@ titel: Konzept
 
 {% include functions/resolve-urls.html target="mi-wiki" %}
 {% assign wiki = link %}
+
+## Wer macht es?
+
+Verantwortlicher Dozent des Moduls ist Prof. Christian Noss. Das komplette Betreuerteam besteht aus:
+{% for betreuer in site.data.people %}
+{% if betreuer[1].email contains "@" %}
+- {{betreuer[1].name}}
+{% endif %}
+{% endfor %}
 
 ## Worum geht es?
 
@@ -20,7 +29,7 @@ Ok, jetzt mal etwas weniger didaktisch formuliert. Fangen wir vorne an. Wir sind
 - fachlich argumentieren und diskutieren können
 - ein Gestaltungssystem so aufbereiten können, dass es implementierbar ist
 
-## Lernziele
+## Was sind die Ziele?
 
 Mit dem Modul sollen die folgenden Lernziele erreicht werden:
 
