@@ -19,7 +19,7 @@ Wir beschäftigen uns mit dem Grundmuster aller Designprozesse, werfen einen Bli
 
 Im Anschluss übertragen wir das Gelernte in ein Anschreiben an unsere Auftraggeberin und beginnen unser praktisches Projekt zu segmentieren und in Projektphasen zu unterteilen, die im Anschluss zeitlich geschätzt werden sollten.
 
-<p><a href="https://th-koeln.github.io/mi-bachelor-gdvk/download/workshop-designprojekte-strukturieren/ws_designprozesse_strukturieren.pdf/">Download der Workshop Slides als PDF</a></p>
+<p><a href="https://th-koeln.github.io/mi-bachelor-gdvk/download/workshop-designprojekte-strukturieren/ws_designprozesse_strukturieren.pdf">Download der Workshop Slides als PDF</a></p>
 
 ## Aufgaben:
 - Recherchieren Sie Designprozesse oder Vorgehensweisen im Design.
