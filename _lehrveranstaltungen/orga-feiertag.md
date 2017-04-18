@@ -1,6 +1,6 @@
 ---
 titel: Feiertag
-kuerzel: v-pb
+kuerzel: o-ft
 verantwortlich: lk,cn
 typ: other
 pflicht: false

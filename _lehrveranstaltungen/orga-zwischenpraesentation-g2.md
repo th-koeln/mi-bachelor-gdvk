@@ -1,6 +1,6 @@
 ---
 titel: Zwischenpräsentation Gruppe 2 
-kuerzel: v-pb
+kuerzel: o-zp2
 verantwortlich: lk,cn
 typ: pruefung
 pflicht: true

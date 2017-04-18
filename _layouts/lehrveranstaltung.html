@@ -42,7 +42,7 @@ layout: default
 				{% assign check = page.empfohlene-voraussetzungen | strip_newlines %}
 				{% if check != ""  %}
 				{% include /functions/resolve-voraussetzungen.html voraussetzungen=page.empfohlene-voraussetzungen %}
-				<dt>Empfohlene Voraussetzungen</dt><dd>{{voraussetzungen}}</dd>
+				<dt>Empfohlene Trainings und Workshops als Vorraussetzung</dt><dd>{{voraussetzungen}}</dd>
 				{% endif %}
 				
 				{% assign check = page.info | strip_newlines %}

@@ -1,6 +1,6 @@
 ---
 titel: Systematischer Aufbau von Mockups
-kuerzel: t-e2d
+kuerzel: t-sm
 verantwortlich: vs,mk,fj
 typ: training
 pflicht: false

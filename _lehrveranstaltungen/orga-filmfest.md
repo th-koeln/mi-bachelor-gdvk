@@ -1,6 +1,6 @@
 ---
 titel: Medieninformatik Filmfest
-kuerzel: v-pb
+kuerzel: o-ff
 verantwortlich: lk,cn
 typ: other
 pflicht: false

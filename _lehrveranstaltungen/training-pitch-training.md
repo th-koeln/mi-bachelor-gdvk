@@ -1,6 +1,6 @@
 ---
 titel: Pitch Training
-kuerzel: t-p
+kuerzel: t-pt
 verantwortlich: lk,cn
 typ: workshop
 pflicht: false

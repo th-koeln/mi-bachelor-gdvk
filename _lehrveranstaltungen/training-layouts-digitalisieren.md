@@ -1,6 +1,6 @@
 ---
 titel: Paper-based Layouts übertragen
-kuerzel: t-pbl
+kuerzel: t-ld
 verantwortlich: vs,mk,fj
 typ: training
 pflicht: false

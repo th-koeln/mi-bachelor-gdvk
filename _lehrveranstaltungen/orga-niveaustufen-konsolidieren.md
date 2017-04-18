@@ -1,6 +1,6 @@
 ---
 titel: Niveaustufen konsolidieren
-kuerzel: w-nk
+kuerzel: o-nk
 verantwortlich: cn
 typ: vortrag
 pflicht: false

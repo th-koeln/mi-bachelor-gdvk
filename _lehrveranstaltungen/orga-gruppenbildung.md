@@ -1,6 +1,6 @@
 ---
 titel: Gruppenbildung, Teambörse & Ausarbeitung der Niveaustufen
-kuerzel: v-pb
+kuerzel: o-gb
 verantwortlich: lk,cn
 typ: support-all
 pflicht: false
