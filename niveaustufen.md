@@ -138,7 +138,7 @@ Das Mockup muss als PDF und die einzelnen Screens (als *.zip Archiv) im {{link}}
 - Ist unsauber ausgearbeitet
 - Wurde nicht überzeugend präsentiert.
 
-## Patternlab/ Stylguide
+## Patternlab/ Styleguide
 
 Abgabe
 : {{site.data.abgaben.artefakt3.format}}
@@ -185,13 +185,11 @@ Die resultierende Übersicht muss als PDF Dokument im {{link}} hinterlegt werden
 - die Übersicht und die erkannten und erarbeiteten Regeln und Elemente sind im Einklang mit dem finalen Entwurf
 
 **Akzeptable Lösung**
-- wesentliche Fubuizz Gestaltungselemente und -regeln sind systematisch dargestellt
-- einige Gestaltungselemente und -regeln des gewählten Fußballclubs sind dargestellt
+- wesentliche Gestaltungselemente und -regeln sind systematisch dargestellt
 - die Übersicht und die erkannten und erarbeiteten Regeln und Elemente sind im finalen Entwurf erkennbar
 
 **Schlechteste Lösung**
-- nur wenige Gestaltungselemente sind dargstellt
+- nur wenige Gestaltungselemente sind dargestellt
 - die Darstellung ist eher chaotisch
 - die Übersicht ist unsauber
 - die Übersicht und die erkannten und erarbeiteten Regeln und Elemente sind nicht im finalen Entwurf erkennbar
-

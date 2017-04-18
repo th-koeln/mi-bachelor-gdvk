@@ -2,7 +2,7 @@
 titel: Welche Tools dürfen wir verwenden?
 ---
 
-Kurze Antwort: alle. Zur Erstellung der Designmockups und Pattern Library gibt es eine ganze Reihe möglicher Tools. Hier eine Auswahl:
+Kurze Antwort: Alle. Zur Erstellung der Designmockups und Pattern Library gibt es eine ganze Reihe möglicher Tools. Hier eine Auswahl:
 - Sketch
 - Figma
 - Adobe Experience Design
