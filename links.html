@@ -3,7 +3,6 @@ layout: default
 ---
 
 {% assign links = (site.links | sort: 'title')) %}
-{% assign farben = (site.links.farben | sort: 'title')) %}
 
 <section class="section">
 	<div class="container">
@@ -20,7 +19,7 @@ layout: default
 
 			<div class="content">
 
-				{% for link in farben %}
+				{% for link in links %}
 
 					<h2 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h2>
 					<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
