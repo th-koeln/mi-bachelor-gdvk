@@ -3,6 +3,8 @@ layout: default
 ---
 
 {% assign links = (site.links | sort: 'title')) %}
+{% assign tabtags = "Guides|Tools|Ressourcen|Inspirationen|Typographie|Farben|Generell|Vertiefungen" | split: "|" %}
+
 
 <section class="section">
 	<div class="container">
@@ -15,33 +17,42 @@ layout: default
 </section>
 <section class="section">
 	<div class="container">
-		<div class="links">
-
+		<div class="tabs is-tab-navigation is-non-print">
+			<ul>
+				<li class="tab-item" data-tab="overview-item"><a >Alle</a></li>
+				{% for navEle in tabtags %}
+					<li class="tab-item" data-tab="{{navEle}}"><a >{{navEle}}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+		<div class="links is-tab-content is-overview-item">
 			<div class="content">
 
-				<h2 class="title is-2" style="border-top: solid 1px #bbbbbb; padding-top: 0.8rem;">Farben</h2>
 				{% for link in links %}
-					{% if link.tags contains "Farben" %}
 
-						<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
-						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
+					<h2 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h2>
+					<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+					<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
 
-					{% endif %}
+
 	  		{% endfor %}
-
-				<h2 class="title is-2" style="border-top: solid 1px #bbbbbb; padding-top: 0.8rem;">Typographie</h2>
-				{% for link in links %}
-					{% if link.tags contains "Typographie" %}
-
-						<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
-						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
-
-					{% endif %}
-	  		{% endfor %}
-				
 	  	</div>
 		</div>
+
+		{% for navEle in tabtags %}
+		<div class="links is-tab-content is-{{navEle}}">
+			<div class="content">
+
+				{% for link in links %}
+					{% if link.tags contains navEle %}
+						<h2 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h2>
+						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+		{% endfor %}
+
 	</div>
 </section>
