@@ -21,9 +21,12 @@ layout: default
 
 				{% for link in links %}
 
-					<h2 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h2>
-					<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-					<p>{{link.tags[0]}}</p>
+
+					{% if link.tags contains "Farben" %}
+						<h2 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h2>
+						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+						<p>{{link.tags | array_to_sentence_string: ''}}</p>
+					{% endif %}
 
 	  		{% endfor %}
 	  	</div>
