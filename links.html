@@ -19,12 +19,28 @@ layout: default
 
 			<div class="content">
 
+				<h2 class="title is-2" style="border-top: solid 1px #bbbbbb; padding-top: 0.8rem;">Farben</h2>
 				{% for link in links %}
-					<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
-					<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-					<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
+					{% if link.tags contains "Farben" %}
+
+						<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
+						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
+
+					{% endif %}
 	  		{% endfor %}
 
+				<h2 class="title is-2" style="border-top: solid 1px #bbbbbb; padding-top: 0.8rem;">Typographie</h2>
+				{% for link in links %}
+					{% if link.tags contains "Typographie" %}
+
+						<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
+						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
+
+					{% endif %}
+	  		{% endfor %}
+				
 	  	</div>
 		</div>
 	</div>
