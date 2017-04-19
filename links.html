@@ -25,7 +25,7 @@ layout: default
 
 						<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
 						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-						<p style="color: #bbbbbb;">{{link.tags | array_to_sentence_string: ''}}</p>
+						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
 
 					{% endif %}
 	  		{% endfor %}
@@ -36,10 +36,23 @@ layout: default
 
 						<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
 						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-						<p style="color: #bbbbbb;">{{link.tags | array_to_sentence_string: ''}}</p>
+						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
 
 					{% endif %}
 	  		{% endfor %}
+
+				<h2 class="title is-2" style="border-top: solid 1px #bbbbbb; padding-top: 0.8rem;">Generell</h2>
+				{% for link in links %}
+					{% if link.tags contains "Generell" %}
+
+						<h3 class="title is-3" id="{{ faq.id }}">{{ link.titel }}</h3>
+						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
+
+					{% endif %}
+	  		{% endfor %}
+
+				
 	  	</div>
 		</div>
 	</div>
