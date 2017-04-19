@@ -52,7 +52,7 @@ In der ersten Semesterhälfte wird das Modul "Grundlagen der visuellen Kommunika
 
 Das Modul "Grundlagen der visuellen Kommunikation" wird in Projektform durchgeführt, d.h. ein Projekt bildet den roten Faden des Moduls. Damit die Teilnehmer das Projekt möglichst gut realisieren können, bieten wir eine Reihe von Veranstaltungen wie Workshops, Softwaretrainings und Vorträge an. Diese können freiwillig und nach eigenem Ermessen besucht werden.
 
-Um Feedback zu ihren Ideen und Entwürfen zu bekommen werden regelmäßige Termine angeboten. Von diesen Terminen müssen zwei wahrgenommen werden. Damit wir als Betreuer und Dozenten sehen können, dass die Studierenden auf dem richtigen Weg sind, gibt es eine verpflichtende Zwischenpräsentation. Wenn die Studierenden inhaltliche, gestalterische oder technische Unterstützung brauchen, können Sie die Supporttermine wahrnehmen. Zu allen Veranstaltungen, außer den Vorträgen, muss sich im Medieninformatik Wiki angemeldet werden.
+Um Feedback zu ihren Ideen und Entwürfen zu bekommen werden regelmäßige Termine angeboten. Von diesen Terminen müssen zwei wahrgenommen werden. Damit wir als Betreuer und Dozenten sehen können, dass die Studierenden auf dem richtigen Weg sind, gibt es eine verpflichtende Zwischenpräsentation. Wenn die Studierenden inhaltliche, gestalterische oder technische Unterstützung brauchen, können Sie die Supporttermine wahrnehmen. Zu allen Veranstaltungen, außer den Vorträgen, muss sich im {{wiki}} angemeldet werden.
 
 Das Projekt wird in Zweierteams durchgeführt.
 
@@ -68,7 +68,9 @@ Die Prüfungsform ist eine Projektpräsentationsprüfung. Dabei präsentieren di
 
 **Vorträge** geben Überblick über ein Themengebiet, zeigen theoretische Grundlagen und jede Menge Beispiele, sind interaktiv und initiieren Diskurs, legen die Basis für die professionelle Auseinandersetzung mit dem Projekt, bauen das Vokabular für die Prüfung auf. Die Teilnahme wird dringend empfohlen. Eine Anmeldung ist nicht erforderlich.
 
-**Workshops** bringen Theorie und Praxis zusammen, schulen und trainieren in einem bestimmten Themenfeld, erfordern den sicheren Umgang mit den trainierten Softwaretools, erfordern das Grundwissen aus den Vorträgen. Die Teilnahme wird dringend empfohlen. Zu Workshops muss sich im Medieninformatik Wiki angemeldet werden.
+**Workshops** bringen Theorie und Praxis zusammen, schulen und trainieren in einem bestimmten Themenfeld, erfordern den sicheren Umgang mit den trainierten Softwaretools, erfordern das Grundwissen aus den Vorträgen. Die Teilnahme wird dringend empfohlen. Zu Workshops muss sich im {{wiki}} angemeldet werden. Wenn möglich, sollte hier ein eigener Rechner mitgebracht werden.
+
+**Trainings** trainieren den Umgang mit Domänen-spezifischer Software, verbessern die Handlungsfähigkeit und -geschwindigkeit, müssen durch Screenmovies vorbereitet werden. Zu Trainings muss sich im {{wiki}} angemeldet werden. Wenn möglich, sollte hier ein eigener Rechner mitgebracht werden.
 
 **Feedbacks** geben den Studierenden die Chance, Rückmeldung zu Ihrer Arbeit, dem aktuellen Stand und Ihrem Fortschritt zu bekommen; müssen von den Studierenden gut vorbereitet sein und eigenständig dokumentiert werden. Es müssen zwei Termine wahrgenommen werden. Es dürfen aber auch mehr Termine genutzt werden. Zu Feedbacks muss sich im {{wiki}} angemeldet werden.
 

@@ -25,17 +25,14 @@ layout: default
 </section>
 <section class="section">
 	<div class="container zweispalter">
-		<div class="faq">
-		
-			<div class="content">
-				
-				{% for faq in faqs %}
-					
-					<h2 class="title is-2" id="{{ faq.id }}">{{ faq.titel }}</h2>
-					{{ faq.content }}
+	
+		{% for faq in faqs %}
+			<div class="content faq">	
+				<h2 class="title is-2" id="{{ faq.id }}">{{ faq.titel }}</h2>
+			
+				{{ faq.content }}
+			</div>
+		{% endfor %}
 
-	  		{% endfor %}
-	  	</div>
-		</div>
 	</div>
 </section>

@@ -381,7 +381,7 @@ $tt-grid-height: 60px;
 	
 }
 
-.modulbeschreibung, .zweispalter{
+.zweispalter{
 	h2{
 		border-top: dotted 1px $grey-light;
 		padding-top: $bfs;
@@ -429,6 +429,21 @@ $tt-grid-height: 60px;
 			}
 		}
 	}
+}
+
+.modulbeschreibung{
+	h2{
+		border-top: dotted 1px $grey-light;
+		padding-top: $bfs;
+	}
+	
+	.content{
+		
+	}
+}
+
+.faq{
+	clear: both;	
 }
 
 .toc{

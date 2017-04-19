@@ -1,6 +1,6 @@
 ---
 titel: ProfiL2 Projektwoche
-kuerzel: v-pb
+kuerzel: o-p2
 verantwortlich: lk,cn
 typ: other
 pflicht: false

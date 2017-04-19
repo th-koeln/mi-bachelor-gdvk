@@ -7,8 +7,10 @@
 
 {% comment %}  Wenn dies eine abhängige Lehrveranstaltung ist, dann selbiges speichern {% endcomment %} 
 {% if(voraussetzungen contains lehrveranstaltung.kuerzel) %}
-{% assign ausgabe = ausgabe | push: lehrveranstaltung.titel %}
 
+{% capture link %}<a href="{{site.baseurl}}{{lehrveranstaltung.url}}">{{lehrveranstaltung.titel}}</a>{% endcapture %}
+
+{% assign ausgabe = ausgabe | push: link %}
 {% endif %}
 {% endfor %}
 
