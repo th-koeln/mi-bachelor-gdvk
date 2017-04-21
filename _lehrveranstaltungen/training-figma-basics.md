@@ -38,7 +38,7 @@ Bitte schon mal die Videotutorials durcharbeiten. Figma ist momentan noch kosten
 ### Fortgeschrittene Tutorials (optional)
 - [Figma Tutorial: Constraints (YouTube)](https://www.youtube.com/watch?v=rRQAQ1d9q9w)
 - [Figma Tutorial: Components (YouTube)](https://www.youtube.com/watch?v=RLRVv7JXvco)
-- 
+
 ### Folien und Aufgaben
 Figma ist kompatibel mit Sketch-Dateien und kann diese importieren. Aus diesem Grund können Sie die hier verlinkten Dateien in Figma importieren, um sie dort ebenfalls zu verwenden.
 - [Übungsaufgaben (Sketch, mit Figma kompatibel)](../../download/training-sketch-basics/Sketch_Training_GdvK_SS_17_v2.zip)
