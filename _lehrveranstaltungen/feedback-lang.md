@@ -9,6 +9,7 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 120
 raum: 3.217
+anzahl: 20 Teilnehmer
 info: 
 ---
 

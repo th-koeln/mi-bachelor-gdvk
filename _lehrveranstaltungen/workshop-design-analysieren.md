@@ -9,6 +9,7 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 120
 raum: 0.505
+anzahl: 30 Teilnehmer
 info: Wie analysiere ich systematisch ein bestehendes Gestaltungssystem und wie kann ich es bewerten?
 ---
 

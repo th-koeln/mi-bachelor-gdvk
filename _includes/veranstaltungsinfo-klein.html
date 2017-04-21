@@ -3,6 +3,13 @@
 {% if lehrveranstaltung.pflicht == true %}
 {% assign verbindlichkeit = "pflicht" %}
 {% endif %}
+
+{% capture teilnehmer %}{{typ-max-teilnehmer}} Teilnehmer{% endcapture %}
+
+{% if lehrveranstaltung.anzahl.size >  1 %}
+{% assign teilnehmer = lehrveranstaltung.anzahl %}
+{% endif %}
+
 <div class="is-tab-content card is-{{lehrveranstaltung.typ}} is-overview-item is-{{verbindlichkeit}}" id="{{lehrveranstaltung.typ}}">
 	
 	<div class="card-header">
@@ -19,7 +26,7 @@
 				{% if termine.size > 1 %}
 				{% assign anzahl-angebote = termine.size | append: " mal" %}
 				{% endif %}
-				{{typ-name}} für {{typ-max-teilnehmer}} Teilnehmer, wird {{ anzahl-angebote }} angeboten.
+				{{typ-name}} für {{teilnehmer}}, wird {{ anzahl-angebote }} angeboten.
 			</p>
 			<p>
 				{% assign check = lehrveranstaltung.info | strip_newlines %}

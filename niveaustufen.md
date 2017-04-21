@@ -32,7 +32,7 @@ Beide Artefakte sollten inhaltlich und formal Professionalität ausstrahlen und 
 - das Team stellt die richtigen Fragen um Lücken im Briefing zu schließen
 - das Team macht einen aufgeräumten und professionellen Eindruck und ist in der Lage das Projekt in meinem Sinne zu bearbeiten
 
-Angebot und Anschreiben müssen als PDF im {{link}} hinterlegt und ausgedruckt zur Prüfung mitgebracht werden. Sie werden entsprechend der folgenden Niveaustufen bewertet:
+Angebot und Anschreiben müssen als PDF im {{link}} hinterlegt und ausgedruckt zur **Zwischenpräsentation** mitgebracht werden. Sie werden entsprechend der folgenden Niveaustufen bewertet:
 
 **Beste Lösung**
 - Das Angebot enthält alle notwendigen Arbeitsschritte/-pakete mit verständlichen und präzisen Beschreibungen, sowie mit Preisen (Aufwandsschätzungen).

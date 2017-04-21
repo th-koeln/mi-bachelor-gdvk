@@ -9,6 +9,7 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 30
 raum: 3.216
+anzahl: 10 Teams
 info:
 ---
 

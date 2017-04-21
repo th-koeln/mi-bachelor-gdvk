@@ -8,6 +8,7 @@ termine: 2017-06-01 14:00|fehlt,2017-06-01 16:00|fehlt
 empfohlene-voraussetzungen: 
 published: true
 dauer: 120
+anzahl: 15 Teams
 info:
 ---
 

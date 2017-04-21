@@ -8,6 +8,7 @@ termine: 2017-04-27 15:30|3.102
 empfohlene-voraussetzungen: 
 published: true
 dauer: 60
+anzahl: beliebig viele Teilnehmer
 info:
 ---
 
