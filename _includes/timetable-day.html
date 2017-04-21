@@ -68,7 +68,7 @@
 						{% assign raumnummer = "" %}
 						<div class="column">
 							{% include /functions/resolve-types.html typ=veranstaltung.typ %}
-							<a href="{{site.baseurl}}{{lehrveranstaltung.url}}">
+							<a href="{{site.baseurl}}{{veranstaltung.url}}">
 							<div class="veranstaltung {{veranstaltung.typ}}" style="margin-top: {{termin-start-min}}px;  height: {{veranstaltung.dauer}}px">
 								{% include /functions/resolve-names.html verantwortlich=veranstaltung.verantwortlich %}
 								<p class="title"><span class="is-hidden-tablet">{{termin | date: '%d. %B %Y, %H:%M Uhr'}}: </span>{{veranstaltung.titel}}</p>
