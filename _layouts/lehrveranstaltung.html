@@ -33,7 +33,14 @@ layout: default
 				{% assign check = page.typ | strip_newlines %}
 				{% if check != ""  %}
 				<dt>Typ</dt><dd>{{typ-name}}</dd>
-				<dt>Maximale Teilnehmerzahl</dt><dd>{{typ-max-teilnehmer}}</dd>
+				
+				{% capture teilnehmer %}{{typ-max-teilnehmer}} Teilnehmer{% endcapture %}
+
+				{% if page.anzahl != "" and page.anzahl != nil %}
+				{% assign teilnehmer = page.anzahl %}
+				{% endif %}
+
+				<dt>Maximale Teilnehmerzahl</dt><dd>{{teilnehmer}}</dd>
 				{% endif %}
 				
 				{% include /functions/resolve-names.html verantwortlich=page.verantwortlich %}
@@ -47,7 +54,7 @@ layout: default
 				
 				{% assign check = page.info | strip_newlines %}
 				{% if check != ""  %}
-				<dt>Fragestellung</dt><dd>{{page.info}}</dd>
+				<dt>Info</dt><dd>{{page.info}}</dd>
 				{% endif %}
 
 

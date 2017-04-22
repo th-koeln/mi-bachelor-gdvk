@@ -1,6 +1,6 @@
 ---
 layout: page
-titel: Basisinformation
+titel: Über das Modul
 ---
 
 {% include functions/resolve-urls.html target="mi-wiki-pruefung" %}
@@ -8,15 +8,6 @@ titel: Basisinformation
 
 {% include functions/resolve-urls.html target="mi-wiki" %}
 {% assign wiki = link %}
-
-## Wer macht es?
-
-Verantwortlicher Dozent des Moduls ist Prof. Christian Noss. Das komplette Betreuerteam besteht aus:
-{% for betreuer in site.data.people %}
-{% if betreuer[1].email contains "@" %}
-- {{betreuer[1].name}}
-{% endif %}
-{% endfor %}
 
 ## Worum geht es?
 
@@ -72,6 +63,16 @@ Die Prüfungsform ist eine Projektpräsentationsprüfung. Dabei präsentieren di
 
 **Trainings** trainieren den Umgang mit Domänen-spezifischer Software, verbessern die Handlungsfähigkeit und -geschwindigkeit, müssen durch Screenmovies vorbereitet werden. Zu Trainings muss sich im {{wiki}} angemeldet werden. Wenn möglich, sollte hier ein eigener Rechner mitgebracht werden.
 
-**Feedbacks** geben den Studierenden die Chance, Rückmeldung zu Ihrer Arbeit, dem aktuellen Stand und Ihrem Fortschritt zu bekommen; müssen von den Studierenden gut vorbereitet sein und eigenständig dokumentiert werden. Es müssen zwei Termine wahrgenommen werden. Es dürfen aber auch mehr Termine genutzt werden. Zu Feedbacks muss sich im {{wiki}} angemeldet werden.
+**Feedbacks & Support** geben den Studierenden die Chance, Rückmeldung zu Ihrer Arbeit, dem aktuellen Stand und Ihrem Fortschritt zu bekommen; müssen von den Studierenden gut vorbereitet sein und eigenständig dokumentiert werden. Es müssen zwei Termine wahrgenommen werden. Es dürfen aber auch mehr Termine genutzt werden. Zu Feedback- und Supporttermine müssen Sie sich nicht anmelden.
 
 Hier finden Sie eine [Übersicht über alle angebotenen Veranstaltung](angebote/) im Rahmen des Moduls.
+
+
+## Wer macht es?
+
+Verantwortlicher Dozent des Moduls ist Prof. Christian Noss. Das komplette Betreuerteam besteht aus:
+{% for betreuer in site.data.people %}
+{% if betreuer[1].email contains "@" %}
+- {{betreuer[1].name}}
+{% endif %}
+{% endfor %}

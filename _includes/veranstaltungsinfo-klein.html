@@ -6,7 +6,7 @@
 
 {% capture teilnehmer %}{{typ-max-teilnehmer}} Teilnehmer{% endcapture %}
 
-{% if lehrveranstaltung.anzahl.size >  1 %}
+{% if lehrveranstaltung.anzahl != "" and lehrveranstaltung.anzahl != nil %}
 {% assign teilnehmer = lehrveranstaltung.anzahl %}
 {% endif %}
 
