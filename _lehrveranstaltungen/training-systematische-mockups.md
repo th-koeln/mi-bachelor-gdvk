@@ -8,7 +8,7 @@ termine: 2017-05-26 11:00, 2017-05-26 15:00, 2017-06-02 11:00, 2017-06-02 15:00
 empfohlene-voraussetzungen: t-fb,t-sb
 published: true
 dauer: 120
-info: Wie können wir unsere Entwürfe systematisch in Sketch oder Figma aufbauen und auf verschiedenen Devices anschauen und überprüfen?
+info: Wie können wir unsere Entwürfe systematisch in Sketch oder Figma aufbauen?
 ---
 
 Ich hab recherchiert wie sich ein paar Vorgänge in den Tools verbessern ließen.
