@@ -9,7 +9,7 @@ empfohlene-voraussetzungen:
 published: true
 dauer: 120
 raum: 3.102
-info: Was sind grundlegende Fragen im Design und welche Rolle spielt Design in der Medieninformatik.
+info: Was sind grundlegende Fragen im Design und welche Rolle spielt Design in der Medieninformatik?
 ---
 
 
