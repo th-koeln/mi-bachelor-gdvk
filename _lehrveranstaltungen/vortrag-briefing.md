@@ -20,20 +20,19 @@ Die Finanzierung erfolgt über Werbeeinblendungen.
 <p><a href="https://th-koeln.github.io/mi-bachelor-gdvk/download/projektbriefing/projektbriefing.pdf">Download der Briefing-Slides als PDF</a></p>
 
 ## Daten und Fakten
-Anzahl der registrierten User: 3927
-Anzahl der Spielplätze: 5731 
-Diese Kurve zeigt steil nach oben, allein in den ersten 3,5 Monaten 2017 wurden schon über 400 Spielplätze eingetragen.
+- Anzahl der registrierten User: 3927
+- Anzahl der Spielplätze: 5731 
+- Städte in denen Spielplätze eingetragen wurden: 1116
+- Anzahl der Favoriten: 625
+- Anzahl der Bewertungen: 7225
+- Anzahl der Spielplatzbilder: 17655
 
-Städte in denen Spielplätze eingetragen wurden: 1116
-Anzahl der Favoriten: 625
-Anzahl der Bewertungen: 7225
-Anzahl der Spielplatzbilder: 17655
+Online-Start im Mai 2009.   
+Das Design ist von 2009 / 2010.
 
-Online-Start im Mai 2009. Das Design ist von 2009 / 2010.
-
-Seitenaufrufe 2016: 2.720.000
-Sitzungen 2016: 595.9132
-Nutzer 2016: 473.804 (70% weiblich, 30% männlich)
+- Seitenaufrufe 2016: 2.720.000
+- Sitzungen 2016: 595.9132
+- Nutzer 2016: 473.804 (70% weiblich, 30% männlich)
 
 ##  Wo ist das Problem und was ist zu tun?
 Das Design der Website ist ziemlich in die Jahre gekommen und entspricht nicht mehr den aktuellen Sehgewohnheiten im digitalen Kontext. Hier soll mit einer gestalterischen Überarbeitung der Website wieder zu einem zeitgemäßen Erscheinungsbild verholfen werden.
