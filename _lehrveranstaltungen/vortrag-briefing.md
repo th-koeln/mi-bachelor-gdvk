@@ -52,19 +52,15 @@ Das Design soll möglichst gut auf unterschiedlichen Geräteklassen, von Smartph
 ##  Aufgabe
 1. Bitte lassen Sie uns ein schriftliches Angebot zukommen, dass uns eine verständliche Übersicht über die erforderlichen Arbeitsschritte und die damit verbundenen Aufwände liefert.
 
-2. Analysieren Sie die bestehende Website und extrahieren Sie die Gestaltungselemente, die auch im neuen Design erhalten bleiben sollten.
-
-Was bedeutet zeitgemäßes Design bezogen auf die Anforderungen von und für spielplatztreff.de?
-
-Entwickeln Sie dann ein neues Gestaltungskonzept für die Website von Spielplatztreff.de, dass die kommunikativen Zielsetzungen erfüllt.  
+2. Analysieren Sie die bestehende Website und extrahieren Sie die Gestaltungselemente, die auch im neuen Design erhalten bleiben sollten. Was bedeutet zeitgemäßes Design bezogen auf die Anforderungen von und für spielplatztreff.de? Entwickeln Sie dann ein neues Gestaltungskonzept für die Website von Spielplatztreff.de, dass die kommunikativen Zielsetzungen erfüllt.  
 
 4. Machen Sie Ihr Designkonzept in einem non-funktionalen Prototypen erlebbar, der die wichtigsten Seiten für die Geräteklassen Smartphone, Tablet und Laptop/Desktop zeigt:
-- Landingpage / Startseite: http://bit.ly/2p1WFEW
-- Verteilerseite, z.B.: http://bit.ly/2pJI7Yg
-- Detailseite, z.B.: http://bit.ly/2pJBvt6
-- entweder Eintragen Seite (http://bit.ly/2pJBHZ6) oder Suche (http://bit.ly/2pJIl1y)
+- Landingpage / Startseite: <a href="http://bit.ly/2p1WFEW">http://bit.ly/2p1WFEW</a>
+- Verteilerseite, z.B.: <a href="http://bit.ly/2pJI7Yg">http://bit.ly/2pJI7Yg</a>
+- Detailseite, z.B.: <a href="http://bit.ly/2pJBvt6">http://bit.ly/2pJBvt6</a>
+- Seite „Eintragen“: <a href="http://bit.ly/2pJBHZ6">http://bit.ly/2pJBHZ6</a>
 
-5. Dokumentieren Sie ihr Designkonzept möglichst übersichtlich in einem kurzen, visuellen Regelwerk (Styleguide oder Patternlab), so dass unsere *Entwickler *nach Ihren Vorgaben das neue Design implementieren können.
+5. Dokumentieren Sie ihr Designkonzept möglichst übersichtlich in einem kurzen, visuellen Regelwerk (Styleguide oder Patternlab), so dass unsere *Entwickler* nach Ihren Vorgaben das neue Design implementieren können.
 
 ## Rahmenbedingungen 
 Nutzen Sie nur Bilder und Texte von Spielplatztreff.de.
