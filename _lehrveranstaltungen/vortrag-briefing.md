@@ -68,4 +68,22 @@ Nutzen Sie nur Bilder und Texte von Spielplatztreff.de.
 <p><a href="https://th-koeln.github.io/mi-bachelor-gdvk/download/projektbriefing/designpack_spielplatztreff.zip">Download des Designpacks</a></p>
 
 ## Termine
-TBA
+**Mai**  
+
+- Abgabe des Angebots* in gedruckter und digitaler Form
+
+**Zwischenpräsentation**  
+
+Bei der Zwischenpräsentation wollen wir innerhalb von  5 Minuten einen ersten Stand Ihres Projekts sehen, um einschätzen zu können, wie gut Ihr Team voran kommt  und ob Sie das Projekt in die richtige Richtung entwickeln.
+
+- Welche Recherchen und Analysen wurden gemacht und was sind die Ergebnisse? 
+- Welche gestalterischen und konzeptionellen Überlegungen wurden angestellt? 
+- Welche Probleme & Schwierigkeiten wurden bislang identifiziert? 
+- Wie sehen die ersten Ansätze zum Gestaltungskonzept aus? 
+- Wie sehen erste Gestaltungselemente und Wireframes aus?
+
+**Abschlusspräsentation**  
+
+- Angebot und Anschreiben
+- Gestaltungskonzept als Design Mockup / Non-funktionaler Prototyp
+- Patternlab / StyleGuide
