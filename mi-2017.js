@@ -114,9 +114,73 @@ more.func = (function(){
 })();
 
 
+var	panelTabs = {};
+panelTabs.elements = {};
+panelTabs.func = (function(){
+
+	var exports = {};
+
+	exports.init = function(){
+
+		// Tab Navi aktivieren
+		var tabNavigations = document.querySelectorAll('.panel');
+
+		for(i=0; i<tabNavigations.length; i++){
+			var tabNavigation = tabNavigations[i];
+			var htmltabs = tabNavigation.querySelectorAll('.panel-block');
+			htmltabs[0].classList.add('is-active');
+			selectTab(htmltabs[0]);
+
+			for(i=0; i<htmltabs.length; i++){
+				var htmltab = htmltabs[i];
+
+				htmltab.onclick = function(){ selectTab(this); }
+			}
+
+		}
+	}
+
+	selectTab = function( ele ){
+
+		var target_id = ele.getAttribute('data-tab');
+		var targets = document.querySelectorAll('.is-' + target_id);
+
+		// Content ausblenden
+		var items = document.querySelectorAll('.is-tab-content');
+
+		for(i=0; i<items.length; i++){
+			var item = items[i];
+			item.classList.add('is-hidden');
+		}
+
+		// gewählten Content einblenden
+		var targets = document.querySelectorAll('.is-' + target_id);
+
+		// Content einblenden
+		for(i=0; i<targets.length; i++){
+			var target = targets[i];
+			target.classList.remove('is-hidden');
+		}
+
+		// Aktiven Navipunkt markieren
+		var elements = ele.parentElement.querySelectorAll('.panel-block');
+		for(i=0; i<elements.length; i++){
+			var element = elements[i];
+			element.classList.remove('is-active');
+		}
+		ele.classList.add('is-active');
+
+	}
+
+
+	return exports;
+})();
+
+
+
 var urlParams = new URLSearchParams(window.location.search);
 if(!urlParams.has('media')){
 	more.func.init();
 	tabs.func.init();
+	panelTabs.func.init();
 }
-

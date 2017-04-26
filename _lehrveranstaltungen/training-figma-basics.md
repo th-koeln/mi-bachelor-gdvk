@@ -4,7 +4,7 @@ kuerzel: t-fb
 verantwortlich: fj,jp
 typ: training
 pflicht: false
-termine: 2017-04-28 14:00|fehlt|http://bit.ly/2q409HT,2017-04-28 16:00|fehlt|http://bit.ly/2pf6nSw,2017-05-04 16:00|fehlt|http://bit.ly/2oH6KDu
+termine: 2017-04-28 14:00|3.204|http://bit.ly/2q409HT,2017-04-28 16:00|3.204|http://bit.ly/2pf6nSw,2017-05-04 16:00|3.204|http://bit.ly/2oH6KDu
 empfohlene-voraussetzungen: 
 published: true
 dauer: 120

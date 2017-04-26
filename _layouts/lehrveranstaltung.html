@@ -24,12 +24,7 @@ layout: default
 				<dt>Dauer</dt><dd>{{page.dauer}} min</dd>
 				{% endif %}
 				
-				{% assign check = page.termine | strip_newlines %}
-				{% if check != ""  %}
-				{% include /functions/resolve-dates.html termine=page.termine %}
-				<dt>Termine</dt><dd>{{termine}}</dd>
-				{% endif %}
-				
+
 				{% assign check = page.typ | strip_newlines %}
 				{% if check != ""  %}
 				<dt>Typ</dt><dd>{{typ-name}}</dd>
@@ -65,6 +60,12 @@ layout: default
 	<div class="modulbeschreibung">
 		<div class="container">
 			<div class="content">
+				{% assign check = page.termine | strip_newlines %}
+				{% if check != ""  %}
+				<h2>Termine:</h2>
+				{% include termine-auf-veranstaltungsseite.html termine=page.termine default-raum=page.raum %}
+				{% endif %}
+				
 			{{ content }}
 	  		</div>
 		</div>

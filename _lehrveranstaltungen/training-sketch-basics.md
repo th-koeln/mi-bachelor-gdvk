@@ -4,7 +4,7 @@ kuerzel: t-sb
 verantwortlich: mk
 typ: training
 pflicht: false
-termine: 2017-04-28 14:00|fehlt|http://bit.ly/2qbGguR, 2017-04-28 16:00|fehlt|http://bit.ly/2p1QErb, 2017-05-04 16:00|fehlt|http://bit.ly/2q2eIce
+termine: 2017-04-28 14:00|3.217|http://bit.ly/2qbGguR, 2017-04-28 16:00|3.217|http://bit.ly/2p1QErb, 2017-05-04 16:00|3.217|http://bit.ly/2q2eIce
 empfohlene-voraussetzungen:
 published: true
 dauer: 120
@@ -43,4 +43,4 @@ Bitte schon mal die Videotutorials durcharbeiten. Falls Sie eine Version von Ske
 
 ### Folien und Aufgabe
 - [Übungsaufgaben](../../download/training-sketch-basics/Sketch_Training_GdvK_SS_17_v2.zip)
-- [Folien zum Training](../../download/training-sketch-basics/Sketch_Training_GdvK_SS_17_v2.zip)
+- [Folien zum Training](../../download/training-sketch-basics/Sketch_Training_Kickoff_2017.zip)
