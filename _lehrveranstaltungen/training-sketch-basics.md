@@ -43,4 +43,4 @@ Bitte schon mal die Videotutorials durcharbeiten. Falls Sie eine Version von Ske
 
 ### Folien und Aufgabe
 - [Übungsaufgaben](../../download/training-sketch-basics/Sketch_Training_GdvK_SS_17_v2.zip)
-- [Folien zum Training](../../download/training-sketch-basics/Sketch_Training_GdvK_SS_17_v2.zip)
+- [Folien zum Training](../../download/training-sketch-basics/Sketch_Training_Kickoff_2017.zip)
