@@ -24,7 +24,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: 
+  github:
   instagram:
   linkedin:
   pinterest:
@@ -44,13 +44,13 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://www.medieninformatik.th-koeln.de
+url: https://marvinworks.github.io/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "/mi-bachelor-gdvk"
+baseurl: "/test"
 
 #
 # !! You don't need to change any of the configuration flags below !!
@@ -95,22 +95,22 @@ exclude:
   - CNAME
 collections:
   lehrveranstaltungen:
-    output: true    
+    output: true
   faq:
-    output: false    
+    output: false
   snippets:
-    output: false  
+    output: false
   links:
-    output: false    
+    output: false
 
 defaults:
-  - 
+  -
     scope:
       path: ""
       type: lehrveranstaltungen
     values:
       layout: lehrveranstaltung
-  - 
+  -
     scope:
       path: ""
       type: faq

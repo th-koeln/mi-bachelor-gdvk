@@ -16,38 +16,54 @@ layout: default
 </section>
 <section class="section">
 	<div class="container">
-		<div class="tabs is-tab-navigation is-non-print">
-			<ul>
-				<li class="tab-item" data-tab="overview-item"><a >Alle</a></li>
-				{% for navEle in tabtags %}
-					<li class="tab-item" data-tab="{{navEle}}"><a >{{navEle}}</a></li>
-				{% endfor %}
-			</ul>
-		</div>
-		<div class="links is-tab-content is-overview-item">
-			<div class="content">
-				{% for link in links %}
-						<h2 class="title is-3" id="{{ link.id }}">{{ link.titel }}</h2>
-						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-						<p style="color: #999999;">{{link.tags | join:', '}}</p>
-				{% endfor %}
-	  	</div>
-		</div>
-
-		{% for navEle in tabtags %}
-		<div class="links is-tab-content is-{{navEle}}">
-			<div class="content">
-
-				{% for link in links %}
-					{% if link.tags contains navEle %}
-						<h2 class="title is-3" id="{{ link.id }}">{{ link.titel }}</h2>
-						<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
-						<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
-					{% endif %}
-				{% endfor %}
+		<div class="columns">
+			<div class="column">
+				<nav class="panel">
+				  <p class="panel-heading">
+				    Kategorien
+				  </p>
+					<a class="panel-block" data-tab="overview-item">
+						<span class="panel-icon">
+				      <i class="fa fa-book"></i>
+				    </span>
+						Alle
+					</a>
+					{% for navEle in tabtags %}
+						<a class="panel-block" data-tab="{{navEle}}">
+							<span class="panel-icon">
+					      <i class="fa fa-book"></i>
+					    </span>
+					    {{navEle}}
+					  </a>
+					{% endfor %}
+				</nav>
 			</div>
+
+			<div class="links is-tab-content column is-two-thirds is-overview-item">
+				<div class="content">
+					{% for link in links %}
+							<h2 class="title is-3" id="{{ link.id }}">{{ link.titel }}</h2>
+							<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+							<p style="color: #999999;">{{link.tags | join:', '}}</p>
+					{% endfor %}
+		  	</div>
+			</div>
+
+			{% for navEle in tabtags %}
+			<div class="links is-tab-content column is-two-thirds is-{{navEle}}">
+				<div class="content">
+
+					{% for link in links %}
+						{% if link.tags contains navEle %}
+							<h2 class="title is-3" id="{{ link.id }}">{{ link.titel }}</h2>
+							<p>{{link.text}}<br><a href="{{link.src}}">{{link.src}}</a></p>
+							<p style="color: #999999;">{{link.tags | array_to_sentence_string: ''}}</p>
+						{% endif %}
+					{% endfor %}
+				</div>
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
 
 	</div>
 </section>
