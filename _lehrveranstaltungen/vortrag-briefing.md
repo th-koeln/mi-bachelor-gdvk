@@ -52,14 +52,13 @@ Das Design soll möglichst gut auf unterschiedlichen Geräteklassen, von Smartph
 1. Bitte lassen Sie uns ein schriftliches Angebot zukommen, dass uns eine verständliche Übersicht über die erforderlichen Arbeitsschritte und die damit verbundenen Aufwände liefert.
 
 2. Analysieren Sie die bestehende Website und extrahieren Sie die Gestaltungselemente, die auch im neuen Design erhalten bleiben sollten. Was bedeutet zeitgemäßes Design bezogen auf die Anforderungen von und für spielplatztreff.de? Entwickeln Sie dann ein neues Gestaltungskonzept für die Website von Spielplatztreff.de, dass die kommunikativen Zielsetzungen erfüllt.  
+Machen Sie Ihr Designkonzept in einem non-funktionalen Prototypen erlebbar, der die wichtigsten Seiten für die Geräteklassen Smartphone, Tablet und Laptop/Desktop zeigt:
+	- Landingpage / Startseite: <a href="http://bit.ly/2p1WFEW">http://bit.ly/2p1WFEW</a>
+	- Verteilerseite, z.B.: <a href="http://bit.ly/2pJI7Yg">http://bit.ly/2pJI7Yg</a>
+	- Detailseite, z.B.: <a href="http://bit.ly/2pJBvt6">http://bit.ly/2pJBvt6</a>
+	- Seite „Eintragen“: <a href="http://bit.ly/2pJBHZ6">http://bit.ly/2pJBHZ6</a>
 
-4. Machen Sie Ihr Designkonzept in einem non-funktionalen Prototypen erlebbar, der die wichtigsten Seiten für die Geräteklassen Smartphone, Tablet und Laptop/Desktop zeigt:
-- Landingpage / Startseite: <a href="http://bit.ly/2p1WFEW">http://bit.ly/2p1WFEW</a>
-- Verteilerseite, z.B.: <a href="http://bit.ly/2pJI7Yg">http://bit.ly/2pJI7Yg</a>
-- Detailseite, z.B.: <a href="http://bit.ly/2pJBvt6">http://bit.ly/2pJBvt6</a>
-- Seite „Eintragen“: <a href="http://bit.ly/2pJBHZ6">http://bit.ly/2pJBHZ6</a>
-
-5. Dokumentieren Sie ihr Designkonzept möglichst übersichtlich in einem kurzen, visuellen Regelwerk (Styleguide oder Patternlab), so dass unsere *Entwickler* nach Ihren Vorgaben das neue Design implementieren können.
+3. Dokumentieren Sie ihr Designkonzept möglichst übersichtlich in einem kurzen, visuellen Regelwerk (Styleguide oder Patternlab), so dass unsere *Entwickler* nach Ihren Vorgaben das neue Design implementieren können.
 
 ## Rahmenbedingungen 
 Nutzen Sie nur Bilder und Texte von Spielplatztreff.de.
@@ -78,10 +77,15 @@ Bei der Zwischenpräsentation wollen wir innerhalb von  5 Minuten einen ersten
 - Wie sehen die ersten Ansätze zum Gestaltungskonzept aus? 
 - Wie sehen erste Gestaltungselemente und Wireframes aus?
 
-Abgabe des Angebots (Anschreiben + Angebot) in gedruckter und digitaler Form
+*Deliverables*
+  
+Kurzpräsentation als PDF 
+Angebot und Anschreiben als PDF und hochwertiger Ausdruck
 
 **Abschlusspräsentation**  
 
-- Angebot und Anschreiben
-- Gestaltungskonzept als Design Mockup / Non-funktionaler Prototyp
-- Patternlab / StyleGuide
+- Angebot und Anschreiben als PDF 
+- Gestaltungskonzept als Design Mockup / Non-funktionaler Prototyp (PDF und *.zip Archiv mit Einzelscreens)
+- Patternlab / Styleguide als PDF
+
+> <a href="https://th-koeln.github.io/mi-bachelor-gdvk/niveaustufen/">https://th-koeln.github.io/mi-bachelor-gdvk/niveaustufen/</a>

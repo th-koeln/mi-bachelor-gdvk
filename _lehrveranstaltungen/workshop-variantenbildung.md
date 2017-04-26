@@ -4,7 +4,7 @@ kuerzel: w-vb
 verantwortlich: lk,cn
 typ: workshop
 pflicht: false
-termine: 2017-05-12 13:30, 2017-05-12 16:00
+termine: 2017-05-12 13:30|0.504|http://bit.ly/2oMEMa4, 2017-05-12 16:00|0.504|http://bit.ly/2qf86Xh
 empfohlene-voraussetzungen: t-sb oder t-fb, t-ld, t-sm
 published: true
 dauer: 120

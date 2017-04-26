@@ -4,7 +4,7 @@ kuerzel: w-lmw
 verantwortlich: cn
 typ: workshop
 pflicht: false
-termine: 2017-04-28 16:00, 2017-04-28 14:00, 2017-05-04 16:00, 2017-05-05 11:00
+termine: 2017-04-28 14:00|0.505|http://bit.ly/2pwP4yW, 2017-04-28 16:00|0.505|http://bit.ly/2oJaeWK, 2017-05-04 16:00|0.505|http://bit.ly/2pfoGqt, 2017-05-05 11:00|0.505|http://bit.ly/2pfy1i8
 empfohlene-voraussetzungen:
 published: true
 dauer: 120
