@@ -13,4 +13,15 @@ info: Was sind grundlegende Fragen im Design und welche Rolle spielt Design in d
 ---
 
 
+## Worum geht es?
+
+Heute befassen wir uns mit einer Reihe von Grundbegriffen und Sichtweisen im Design. Hier mal ein paar Beispiele:
+
+- Welche Rolle spielt Design?
+- Welche Rolle kommt dem Design in der Informatik/ Medieninformatik zu?
+- Woran erkennen wir gutes Design?
+- Wie können wir Design beschreiben?
+
+Außerdem lernen wir die Methoden „Axis Map“ und das „Semantische Differential“ kennen. Darüber hinaus beschäftigen wir uns mit Grundfragen der Kommunikation, Interaktion und der visuellen Wahrnehmung.
+
 
