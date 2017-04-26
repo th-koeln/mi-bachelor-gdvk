@@ -134,7 +134,7 @@ panelTabs.func = (function(){
 			for(i=0; i<htmltabs.length; i++){
 				var htmltab = htmltabs[i];
 
-				htmltab.onclick = function(){ selectTab(this); }
+				htmltab.onclick = function(){ selectPanelTab(this); }
 			}
 
 		}
