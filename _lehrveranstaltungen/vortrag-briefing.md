@@ -48,7 +48,7 @@ Trotzdem soll der Charakter der bestehenden Seite erhalten bleiben, bzw. Besuche
 
 Das Design soll möglichst gut auf unterschiedlichen Geräteklassen, von Smartphone bis Desktop, einsetzbar sein.
 
-##  Aufgabe
+##  Aufgaben
 1. Bitte lassen Sie uns ein schriftliches Angebot zukommen, dass uns eine verständliche Übersicht über die erforderlichen Arbeitsschritte und die damit verbundenen Aufwände liefert.
 
 2. Analysieren Sie die bestehende Website und extrahieren Sie die Gestaltungselemente, die auch im neuen Design erhalten bleiben sollten. Was bedeutet zeitgemäßes Design bezogen auf die Anforderungen von und für spielplatztreff.de? Entwickeln Sie dann ein neues Gestaltungskonzept für die Website von Spielplatztreff.de, dass die kommunikativen Zielsetzungen erfüllt.  
@@ -68,10 +68,6 @@ Nutzen Sie nur Bilder und Texte von Spielplatztreff.de.
 <p><a href="https://th-koeln.github.io/mi-bachelor-gdvk/download/projektbriefing/designpack_spielplatztreff.zip">Download des Designpacks</a></p>
 
 ## Termine
-**Mai**  
-
-- Abgabe des Angebots* in gedruckter und digitaler Form
-
 **Zwischenpräsentation**  
 
 Bei der Zwischenpräsentation wollen wir innerhalb von  5 Minuten einen ersten Stand Ihres Projekts sehen, um einschätzen zu können, wie gut Ihr Team voran kommt  und ob Sie das Projekt in die richtige Richtung entwickeln.
@@ -81,6 +77,8 @@ Bei der Zwischenpräsentation wollen wir innerhalb von  5 Minuten einen ersten
 - Welche Probleme & Schwierigkeiten wurden bislang identifiziert? 
 - Wie sehen die ersten Ansätze zum Gestaltungskonzept aus? 
 - Wie sehen erste Gestaltungselemente und Wireframes aus?
+
+Abgabe des Angebots (Anschreiben + Angebot) in gedruckter und digitaler Form
 
 **Abschlusspräsentation**  
 
