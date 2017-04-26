@@ -4,7 +4,7 @@ kuerzel: w-tut
 verantwortlich: lk
 typ: workshop
 pflicht: false
-termine: 2017-05-05 11:00, 2017-05-05 14:00, 2017-05-05 16:00
+termine: 2017-05-05 11:00|fehlt|http://bit.ly/2otnWkv, 2017-05-05 14:00|fehlt|http://bit.ly/2q44oDe, 2017-05-05 16:00|fehlt|http://bit.ly/2q281XD
 empfohlene-voraussetzungen: w-ds
 published: true
 dauer: 120

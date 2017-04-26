@@ -4,7 +4,7 @@ kuerzel: t-sb
 verantwortlich: mk
 typ: training
 pflicht: false
-termine: 2017-04-28 14:00,2017-04-28 16:00, 2017-05-04 16:00
+termine: 2017-04-28 14:00|fehlt|http://bit.ly/2qbGguR, 2017-04-28 16:00|fehlt|http://bit.ly/2p1QErb, 2017-05-04 16:00|fehlt|http://bit.ly/2q2eIce
 empfohlene-voraussetzungen:
 published: true
 dauer: 120

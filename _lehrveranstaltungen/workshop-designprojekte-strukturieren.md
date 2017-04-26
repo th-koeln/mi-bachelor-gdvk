@@ -4,7 +4,7 @@ kuerzel: w-ds
 verantwortlich: lk
 typ: workshop
 pflicht: false
-termine: 2017-04-28 14:00, 2017-04-28 16:00, 2017-05-04 16:00
+termine: 2017-04-28 14:00|fehlt|http://bit.ly/2ot4Ta3, 2017-04-28 16:00|fehlt|http://bit.ly/2q3AgaV, 2017-05-04 16:00|fehlt|http://bit.ly/2pfoqI4
 empfohlene-voraussetzungen: 
 published: true
 dauer: 120
