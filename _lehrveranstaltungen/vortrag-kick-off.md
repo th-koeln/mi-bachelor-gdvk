@@ -16,3 +16,6 @@ info: Worum geht es in dem Modul und wie funktioniert es?
 
 In dieser Session wird das Modul und dessen Spielregeln erläutert. Darüber hinaus sprechen wir über wesentliche Grundfragen der visuellen Kommunikation, stellen das Team vor und klären wesentlichen organisatorische Fragen.
 
+## Material
+
+<p><a href="https://th-koeln.github.io/mi-bachelor-gdvk/download/inputs/about-gdvk.pdf">Download der Workshop Slides als PDF</a></p>
