@@ -129,18 +129,18 @@ panelTabs.func = (function(){
 			var tabNavigation = tabNavigations[i];
 			var htmltabs = tabNavigation.querySelectorAll('.panel-block');
 			htmltabs[0].classList.add('is-active');
-			selectTab(htmltabs[0]);
+			selectPanelTab(htmltabs[0]);
 
 			for(i=0; i<htmltabs.length; i++){
 				var htmltab = htmltabs[i];
 
-				htmltab.onclick = function(){ selectTab(this); }
+				htmltab.onclick = function(){ selectPanelTab(this); }
 			}
 
 		}
 	}
 
-	selectTab = function( ele ){
+	selectPanelTab = function( ele ){
 
 		var target_id = ele.getAttribute('data-tab');
 		var targets = document.querySelectorAll('.is-' + target_id);
