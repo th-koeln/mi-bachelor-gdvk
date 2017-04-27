@@ -7,7 +7,7 @@ pflicht: false
 termine: 2017-04-27 14:00
 empfohlene-voraussetzungen: 
 published: true
-dauer: 60
+dauer: 90
 raum: 3.102
 info: Worum geht es in dem Modul und wie funktioniert es?
 ---
