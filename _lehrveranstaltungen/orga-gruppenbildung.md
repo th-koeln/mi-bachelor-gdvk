@@ -4,10 +4,10 @@ kuerzel: o-gb
 verantwortlich: lk,cn
 typ: support-all
 pflicht: false
-termine: 2017-04-27 16:00|3.102 3.217 0.501 0.502 0.504 0.505
+termine: 2017-04-27 16:45|3.102 3.217 0.501 0.502 0.504 0.505
 empfohlene-voraussetzungen: 
 published: true
-dauer: 120
+dauer: 75
 info: Hier werden die Teams erstellt und dann gemeinsam die Niveaustufen(Bewertungsmaßstäbe) erarbeitet.
 ---
 
