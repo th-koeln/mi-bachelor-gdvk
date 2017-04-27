@@ -4,7 +4,7 @@ kuerzel: v-pb
 verantwortlich: lk
 typ: vortrag
 pflicht: false
-termine: 2017-04-27 15:00|3.102
+termine: 2017-04-27 15:30|3.102
 empfohlene-voraussetzungen: 
 published: true
 dauer: 60
