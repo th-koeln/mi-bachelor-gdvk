@@ -42,4 +42,4 @@ Bitte schon mal die Videotutorials durcharbeiten. Figma ist momentan noch kosten
 ### Folien und Aufgaben
 Figma ist kompatibel mit Sketch-Dateien und kann diese importieren. Aus diesem Grund können Sie die hier verlinkten Dateien in Figma importieren, um sie dort ebenfalls zu verwenden.
 - [Übungsaufgaben (Sketch, mit Figma kompatibel)](../../download/training-sketch-basics/Sketch_Training_GdvK_SS_17_v2.zip)
-- [Folien zum Training (Sketch, mit Figma kompatibel)](../../download/training-sketch-basics/Sketch_Training_GdvK_SS_17_v2.zip)
+- [Folien zum Training](../../download/training-figma-basics/Figma_Basics_Training_Folien.pdf)
