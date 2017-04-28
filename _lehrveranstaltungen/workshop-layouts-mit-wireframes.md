@@ -16,7 +16,7 @@ info: Wie kann ich schnell und einfach grobe Layoutstrukturen entwerfen und test
 
 In diesem Workshop versuchen wir Gestaltungsideen zu entwickeln und möglichst schnell und sauber in eine Form zu bringen, dass wir unsere Ideen im Team oder mit dem Kunden besprechen können. Wir befassen und mit Grundfragen des Layouts, mit den zugehörigen Begrifflichkeiten und lernen verschiedene Wireframe Varianten und deren Vor- und Nachteile kennen. Und vor allem entwicklen wir Layouts.
 
-[Download der Workshop Slides als PDF](../../download/workshop-designprojekte-strukturieren/ws_designprozesse_strukturieren.pdf)
+[Download der Workshop Slides als PDF](../../download/workshop-layout-mit-wireframes/workshop-layout-mit-wireframes.pdf)
 
 ## Was muss ich mitbringen?
 
