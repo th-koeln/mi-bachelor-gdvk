@@ -73,13 +73,15 @@
 								{% include /functions/resolve-names.html verantwortlich=veranstaltung.verantwortlich %}
 								<p class="title"><span class="is-hidden-tablet">{{termin | date: '%d. %B %Y, %H:%M Uhr'}}: </span>{{veranstaltung.titel}}</p>
 
+								{% if (veranstaltung.raum | append: "") != "" %}
+								{% assign raumnummer = veranstaltung.raum | append: "" %}
+								{% endif %}
+								
 								{% if raum.size > 1 %}
 								{% assign raumnummer = raum | append: "" %}
 								{% endif %}
 
-								{% if (veranstaltung.raum | append: "") != "" %}
-								{% assign raumnummer = veranstaltung.raum | append: "" %}
-								{% endif %}
+								
 
 								{% assign check = typ-max-teilnehmer | strip_newlines %}
 								{% if check != ""  %}
