@@ -16,14 +16,13 @@ info: Wie kann ich schnell und einfach grobe Layoutstrukturen entwerfen und test
 
 In diesem Workshop versuchen wir Gestaltungsideen zu entwickeln und möglichst schnell und sauber in eine Form zu bringen, dass wir unsere Ideen im Team oder mit dem Kunden besprechen können. Wir befassen und mit Grundfragen des Layouts, mit den zugehörigen Begrifflichkeiten und lernen verschiedene Wireframe Varianten und deren Vor- und Nachteile kennen. Und vor allem entwicklen wir Layouts.
 
-[Download der Workshop Slides als PDF](../../download/workshop-layout-mit-wireframes/workshop-layout-mit-wireframes.pdf)
-
 ## Was muss ich mitbringen?
 
 - Schwarze Filzstifte (nicht zu dick), oder schwarzen Kugelschreiber
 - Papier, weiß und kariert
 
 ## Material und Links
+* [Download der Workshop Slides als PDF](../../download/workshop-layout-mit-wireframes/workshop-layout-mit-wireframes.pdf)
 * [UI Design Patterns](http://ui-patterns.com/patterns)
 * [Rasterpapier](../../download/workshop-designprojekte-strukturieren/rasterpapier.pdf)
 * [The Guide to Wireframing](https://www.uxpin.com/studio/ebooks/guide-to-wireframing/)

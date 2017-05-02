@@ -24,4 +24,7 @@ Heute befassen wir uns mit einer Reihe von Grundbegriffen und Sichtweisen im Des
 
 Außerdem lernen wir die Methoden „Axis Map“ und das „Semantische Differential“ kennen. Darüber hinaus beschäftigen wir uns mit Grundfragen der Kommunikation, Interaktion und der visuellen Wahrnehmung.
 
+## Material
+* [Folien zu Design Basics](../../download/inputs/design-basics-describe.pdf)
+
 
