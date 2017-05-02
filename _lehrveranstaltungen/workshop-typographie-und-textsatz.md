@@ -5,7 +5,7 @@ verantwortlich: lk
 typ: workshop
 pflicht: false
 termine: 2017-05-05 11:00|0.504|http://bit.ly/2otnWkv, 2017-05-05 14:00|0.504|http://bit.ly/2q44oDe, 2017-05-05 16:00|0.504|http://bit.ly/2q281XD
-empfohlene-voraussetzungen: w-ds
+empfohlene-voraussetzungen: w-ds, t-sb
 published: true
 dauer: 120
 raum: 0.504
