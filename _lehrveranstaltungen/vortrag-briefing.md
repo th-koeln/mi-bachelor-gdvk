@@ -69,7 +69,9 @@ Nutzen Sie nur Bilder und Texte von Spielplatztreff.de.
 ## Termine
 **Zwischenpräsentation**  
 
-Bei der Zwischenpräsentation wollen wir innerhalb von  5 Minuten einen ersten Stand Ihres Projekts sehen, um einschätzen zu können, wie gut Ihr Team voran kommt  und ob Sie das Projekt in die richtige Richtung entwickeln.
+Bei der Zwischenpräsentation wollen wir innerhalb von 
+5 Minuten einen ersten Stand Ihres Projekts sehen, um einschätzen zu können, wie gut Ihr Team voran kommt 
+und ob Sie das Projekt in die richtige Richtung entwickeln.
 
 - Welche Recherchen und Analysen wurden gemacht und was sind die Ergebnisse? 
 - Welche gestalterischen und konzeptionellen Überlegungen wurden angestellt? 
