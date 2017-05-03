@@ -20,8 +20,5 @@ Wir schauen und den Nutzen der Bildung von Varianten in der Praxis an und starte
 ## Was brauchen Sie?
 - Einen eigenen Computer bzw. mindestens einen Rechner pro Team
 
-## Weiterer Input:
-TBD
-
 ## Material
-TBD
+<p><a href="https://th-koeln.github.io/mi-bachelor-gdvk/download/workshop-variantenbildung/material-variantenbildung.zip">Download des benötigten Materials als ZIP Archiv</a></p>
