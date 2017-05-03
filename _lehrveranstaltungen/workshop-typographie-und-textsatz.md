@@ -26,6 +26,9 @@ Ziel des Workshops ist die grundlegende Gestaltung des Anschreibens und Angebots
 - Layouten Sie eine Briefvorlage für Ihr Anschreiben. Benutzen Sie wahlweise Blindtext oder bereits vorhandene Inhaltselemente für Ihr Anschreiben.
 - Layouten Sie eine Tabelle mit den erforderlichen Arbeitsschritten (Phasen), dem Zeitbedarf (Stunden) und den Kosten für die jeweiligen Arbeitsschritte sowie der Gesamtsumme Ihres Angebots. Bitte geben Sie auch den zugrunde liegenden Stundensatz an. Benutzen Sie wahlweise Blindtext oder die Inhaltselemente für Ihr Angebot.
 
+## Was brauchen Sie?
+- Einen eigenen Computer bzw. mindestens einen Rechner pro Team
+
 ## Weiterer Input:
 
 <p><a href="http://www.typolexikon.de">Typolexikon</a></p>
