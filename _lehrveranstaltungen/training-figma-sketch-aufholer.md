@@ -27,7 +27,7 @@ Wenn Sie bereits in einem Figma oder Sketch Basic Training waren und sich dadurc
 
 ## Was sollte ich vorbereiten?
 
-Schauen Sie bitte die Tutorials der Basic Trainings für Ihr ausgewähltes Tool. Bearbeiten Sie bitte vor dem Training die Übungsaufgaben. Dokumentieren von Problemen und Fragen hilft, dann schließlich im Training selbst.
+Schauen Sie bitte die Tutorials der Basic Trainings für Ihr ausgewähltes Tool. Bearbeiten Sie bitte vor dem Training die Übungsaufgaben. Dokumentieren von Problemen und Fragen hilft und im Training.
 
 ## Material
 
