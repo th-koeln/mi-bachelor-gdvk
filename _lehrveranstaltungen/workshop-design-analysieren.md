@@ -22,3 +22,6 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 - Drei beispielhafte Websites oder andere Artefakte mit folgender Wirkung: zeitgemäß, leicht, freundlich, unaufdringlich, einladend, warm, klar und gut strukturiert
 - eigenen Computer
 
+## Material
+[Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren.pdf)
+
