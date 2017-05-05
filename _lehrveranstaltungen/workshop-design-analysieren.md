@@ -24,5 +24,5 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 
 ## Material
 - [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren.pdf)
-- [Mindmapt 14:00](https://mm.tt/892203830?t=1YRiYoSJGz)
+- [Mindmap 14:00](https://mm.tt/892203830?t=1YRiYoSJGz)
 - [Website 14:00 I am Steve](https://iamsteve.me/)
