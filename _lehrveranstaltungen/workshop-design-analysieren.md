@@ -24,6 +24,8 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 
 ## Material
 - [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren.pdf)
+- [Mindmap 16:00](https://mm.tt/892216134?t=CKldL8wn3y)
+- [Designbeispiel](http://iamsteve.me)
 
 ## Beispiele der Teilnehmer
 - [Lego](http://lego.com/de-de)
