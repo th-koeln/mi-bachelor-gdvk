@@ -37,15 +37,26 @@ Damit Sie in diesem Workshop arbeitsfähig sind, ist es wichtig, dass Sie papier
   * Achten Sie darauf, dass die Abstände zwischen einzelnen Elementen nicht willkürlich sind und bestimmten Gesetzmäßigkeiten folgen.
   * Alle Elemente sollen einer einheitlichen Form- und Farbsprache folgen. Das heißt, Elemente, die die gleiche Funktion haben, haben das gleiche Erscheinungsbild. Hierzu können Sie von einzelnen Elementen Components bzw. Symbols erstellen, um diese wieder zu verwenden.
   * Alle Elemente, die zu einer Gruppe gehören, haben die gleichen Abstände zueinander und das gleiche Erscheinungsbild
+
 * Versuche Sie Ihr Layout für das mobile Endgerät anzupassen:
   * Die zur Verfügung stehende Arbeitsfläche ist relativ klein. Nutzen Sie diese deshalb möglichst gut  aus. Lassen Sie beispielsweise am linken und rechten Rand nicht zu viel Weißraum stehen. 
   * Schaltflächen oder Links dürfen nicht zu klein sein, so dass Sie mit dem Finger noch zu benutzen sind.
   * Texte sollten nicht zu schmal laufen und Bilder dürfen nicht zu klein werden. In den meisten Fällen  erstreckt sich ein Text oder Bild über die gesamte Bildschirmbreite.
   * Auch wenn wir hier noch in einer frühen Entwurfsphase sind, behalten Sie schon im Hinterkopf, dass auf dem Smartphone Effekte oder Interaktionen via Mouseover nicht funktionieren.
+
 * Passen Sie die Typografie so an, dass die Texte gut strukturiert und lesbar sind
   * Überschriften und Fließtexte müssen sich weit genug voneinander unterscheiden. Hierbei müssen sich hierarchische Strukturen bilden: Headlines sind wichtiger als Subheadlines und Subheadlines sind wichtiger als Fließtexte.
   * Sorgen Sie für einen optimale Schriftgröße. Zu kleiner Text ist schwer oder gar nicht zu lesen aber auch zu großer Text stört den Lesefluss.
   * Die Relation zwischen Schriftgröße, Zeilenlänge,  Wort- und Zeilenabstand muss stimmig sein.
+
+
+## Material / Upload
+
+[Folien zum Training](../../download/training-layouts-digitalisieren/training-layouts-digitalisieren.pdf)
+
+[Upload Wireframes](https://th-koeln.sciebo.de/index.php/s/t98e81x6qAg0z8C)
+
+
 
 
 
