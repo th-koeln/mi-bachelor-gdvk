@@ -25,3 +25,13 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 ## Material
 - [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren.pdf)
 
+## Beispiele der Teilnehmer
+- [Lego](http://lego.com/de-de)
+- [McFit](http://mcfit.com/de/)
+- [Burgerking](http://burgerking.de)
+- [Audi](http://audi.de)
+- [Apple](http://apple.com/de)
+- [I am Steve](http://iamsteve.me)
+- [Etsy](http://etsy.com)
+
+
