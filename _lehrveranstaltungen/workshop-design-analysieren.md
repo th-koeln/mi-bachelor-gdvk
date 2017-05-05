@@ -23,5 +23,5 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 - eigenen Computer
 
 ## Material
-[Folien zum Workshop](../download/workshop-design-analysieren-und-systematisieren.pdf)
+[Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren.pdf)
 
