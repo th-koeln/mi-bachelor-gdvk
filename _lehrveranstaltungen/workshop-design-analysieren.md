@@ -23,8 +23,8 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 - eigenen Computer
 
 ## Material
-- [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren.pdf)
-- [Mindmap 16:00](https://mm.tt/892216134?t=CKldL8wn3y)
+- [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren/workshop-design-analysieren-und-systematisieren.pdf)
+- [Polaritätenprofil](../../download/workshop-design-analysieren-und-systematisieren/polaritaetenprofil_v2.pdf)
 - [Designbeispiel](http://iamsteve.me)
 
 ## Beispiele der Teilnehmer

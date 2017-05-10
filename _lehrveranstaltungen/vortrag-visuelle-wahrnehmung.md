@@ -16,3 +16,14 @@ info: Wie funktioniert visuelle Wahrnehmung und welche Rückschlüsse können wi
 ## Worum geht es?
 
 Heute befassen wir uns mit einer Reihe von Grundfragen rund um die Themen "Visuelle Wahrnehmung", "Interaktion" und "Identität". Außerdem wenden wir die Methoden "Axis Map" und "Semantisches Differential" an und befassen und mit dem Thema "Wahrnehmungsarbeit".
+
+
+## Material
+- [Folien zu Gefällt mir/ gefällt mir nicht](../../download/inputs/design-basics-gefaellt-mir.pdf)
+- [Folien zu Semantisches Differenzial und Axis Maps](../../download/inputs/semantisches-differenzial-moodboards.pdf)
+- [Folien zu Semiotik](../../download/inputs/semiotik.pdf)
+- [Folien zu Punkt](../../download/inputs/punkt.pdf)
+
+
+
+
