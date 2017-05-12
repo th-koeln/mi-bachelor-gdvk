@@ -26,7 +26,7 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 - [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren/workshop-design-analysieren-und-systematisieren.pdf)
 - [Polaritätenprofil](../../download/workshop-design-analysieren-und-systematisieren/polaritaetenprofil_v2.pdf)
 - [Designbeispiel](http://iamsteve.me)
-- [Mindmapr, Freitag 13:30](https://mm.tt/892215390?t=3qqWJHjEd2)
+- [E-Book: Design Elements](http://web.a.ebscohost.com/ehost/ebookviewer/ebook?sid=996da4d9-8cfd-40a8-b826-b235b2dd58dc%40sessionmgr4006&ppid=pp_Cover1&hid=4207&vid=0&format=EB)
 
 ## Beispiele der Teilnehmer
 - [Lego](http://lego.com/de-de)
@@ -36,5 +36,10 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 - [Apple](http://apple.com/de)
 - [I am Steve](http://iamsteve.me)
 - [Etsy](http://etsy.com)
+- [Zahnarzt im Glatt](http://www.zahnarzt-im-glatt.ch/)
+- [Tamnini](https://www.tambini.de/)
+- [Malte Demuth](http://maltedemuth.com/)
+- [Thobeck](http://thobeck.de/)
+
 
 
