@@ -26,6 +26,7 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 - [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren/workshop-design-analysieren-und-systematisieren.pdf)
 - [Polaritätenprofil](../../download/workshop-design-analysieren-und-systematisieren/polaritaetenprofil_v2.pdf)
 - [Designbeispiel](http://iamsteve.me)
+- [Mindmapr, Freitag 13:30](https://mm.tt/892215390?t=3qqWJHjEd2)
 
 ## Beispiele der Teilnehmer
 - [Lego](http://lego.com/de-de)
