@@ -24,5 +24,5 @@ In diesem Workshop versuchen wir Gestaltungsideen zu entwickeln und möglichst s
 ## Material und Links
 * [Download der Workshop Slides als PDF](../../download/workshop-layout-mit-wireframes/workshop-layout-mit-wireframes.pdf)
 * [UI Design Patterns](http://ui-patterns.com/patterns)
-* [Rasterpapier](../../download/workshop-designprojekte-strukturieren/rasterpapier.pdf)
+* [Rasterpapier](../../download/workshop-layout-mit-wireframes/rasterpapier.zip)
 * [The Guide to Wireframing](https://www.uxpin.com/studio/ebooks/guide-to-wireframing/)
