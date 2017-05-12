@@ -25,6 +25,7 @@ In diesem Workshop werden wir bestehende Gestaltungskonzepte systematisch auf zw
 ## Material
 - [Folien zum Workshop](../../download/workshop-design-analysieren-und-systematisieren/workshop-design-analysieren-und-systematisieren.pdf)
 - [Polaritätenprofil](../../download/workshop-design-analysieren-und-systematisieren/polaritaetenprofil_v2.pdf)
+- [Mindmap, 12.05. 16:00](https://mm.tt/895913195?t=5JTELPpRSb)
 - [Designbeispiel](http://iamsteve.me)
 - [E-Book: Design Elements](http://web.a.ebscohost.com/ehost/ebookviewer/ebook?sid=996da4d9-8cfd-40a8-b826-b235b2dd58dc%40sessionmgr4006&ppid=pp_Cover1&hid=4207&vid=0&format=EB)
 
