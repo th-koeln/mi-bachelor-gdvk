@@ -23,3 +23,13 @@ Heute entwickeln wir das Thema "Visuelle Wahrnehmung" weiter und wenden die Erke
 - Figur und Grund
 - Gestaltgesetze
 - Proportion
+
+## Material
+- [Folien zu Wahrnehmungsarbeit](../../download/inputs/wahrnehmungsarbeit.pdf)
+- [Folien zu Eindeutigkeit](../../download/inputs/eindeutigkeit.pdf)
+- [Folien zu Körper- und Umwelterfahrung](../../download/inputs/koerper-und-umwelterfahrung.pdf)
+- [Folien zu Figur und Grund](../../download/inputs/figur-und-grund.pdf)
+- [Folien zu Gestaltgesetze](../../download/inputs/gestaltgesetze.pdf)
+- [Folien zu Proportion](../../download/inputs/proportion.pdf)
+
+
