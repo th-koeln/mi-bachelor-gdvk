@@ -12,37 +12,39 @@ raum: 3.217
 info: Beim Interfacedesign gestalten wir oftmals Abläufe, die über mehrere Screens gehen. Was gibt es hier zu beachten?
 ---
 
+In diesem Workshop widmen wir uns der Gestaltung von Userinteraktion mit dem Schwerpunkt Interaktionsabläufe und Übergänge. In den meisten Anwendungen haben wir idealerweise keine Abfolge von statischen Screens, sondern versuchen den Nutzer mit Hilfe von sinnvollen Übergängen und Hervorhebungen die Benutzung zu erleichtern und seine Aufmerksamkeit zu lenken.
 
-## Aufgaben:
+## Vorbereitung zum Workshop
 
-- Entwickeln Sie zwei verschiedene Übergänge um eine (ausgeblendete) BU zu einem Bild anzuzeigen.
+An diesem Workshop sollte Sie nur teilnehmen, wenn Sie bereits fit im Umgang mit den basalen Tools wir Sketch oder Figma sind. Darüber hinaus sollten Sie sich im Vorfeld mit einem Animationstool vertraut machen. Dies kann ein spezialisiertes Tool sein (siehe Liste unter Tool & Tutorials) aber auch ein Präsentationstool wie Keynote oder Powerpoint leisten hier ausreichend gute Dienste. Die Folgenden Aufgaben sollten Sie beherrschen:
+- Erstellung passender Arbeitsflächen
+- Übergänge zwischen Screens erzeugen
+- Übergänge steuern (Klick, Zeit, Abhängigkeiten)
+- Elemente animieren
 
-- Erarbeiten Sie in 6er Teams mindestens 10 sinnvolle Abläufe und Übergänge oder Microinteractions bezogen auf das Fubuizz Quiz.
 
-- Realisieren Sie zwei dieser Übergänge. Nutzen Sie als Basis Ihren Fubuizz Entwurf oder einfache Wireframes.
+## Tools & Tutorials
+- [Flinto for Mac: sehr ausgereiftes GUI Design Animation Tool](https://www.flinto.com)
+- [Flinto Tutorials](https://www.flinto.com/tutorial_videos)
+- [Invision: Online Tool für User Flows und Animationen](https://www.invisionapp.com/)
+- [Invision Tutorials](https://support.invisionapp.com/hc/en-us/categories/115000098263)
+- [Framer: Programmierbares Animation Tool](https://framer.com/)
+- [Framer Tutorials](https://framer.com/getstarted/guide/)
+- [Adobe Experience Design: noch ein schönes Animations-/ Prototyping Tool](http://www.adobe.com/de/products/experience-design.html)
+- [Tutorial für den Einsatz von Keynote als Prototyping Tool](https://www.smashingmagazine.com/2015/08/animating-in-keynote/)
 
-- Erzeugen Sie möglichst viele Varianten Ihrer Übergänge bezogen auf Zeit, Beschleunigungsverhalten, etc.
+## Material & Input
+- [Creating Usability with Motion: The UX in Motion Manifesto](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc)
+- [Google Motion Guidelines](https://material.io/guidelines/motion/material-motion.html)
+- [Übersicht gängiger Easings](http://easings.net/de)
+- [Artikel aus dem Smashing Magazine zu Transistions](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design/)
+- [Enhance Your User Experience with Animated Transitions](https://medium.com/yummygum-journal/enhance-your-user-experience-with-animated-transitions-a30267ca376c)
+- [Landingpage zum Thema Transitions auf uxdesign.cc](https://uxdesign.cc/ui-inspiration-b019453058d7)
 
-## Weiterer Input: http://easings.net/de
-- http://abduzeedo.com/ui-transitions-leo-leung
-- https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design/
-- http://sixux.com/
-- https://medium.com/yummygum-journal/enhance-your-user-experience-with-animated-transitions-a30267ca376c#.yw2xe8u7k
-- https://uxdesign.cc/ui-inspiration-b019453058d7#.wdtx61jj4
-
-Mac User sind irgendwie im Vorteil. Das Angebot ist irgendwie schöner, da diese Sketch nutzen können.
-
-Für MacUser:
-1. Diese können laut diesem Guide (https://medium.com/@_jshmllr/design-in-sketch-then-animate-in-keynote-c7f40e59f8f8) die Sketch Komponenten in Keynote importieren und dann dort Prototypes einfach und kostenlos entwickeln. Das Ergebnisbeispiel habe ich dem Anhang dieser Karte angefügt.
-2. Invision bietet die Möglichkeit einen kostenlose Plan zu nutzen. Dieser beinhaltet genau einen Prototype welcher auf Sketch Dateien aufbauen kann. Reicht also für GDVK vollkommen aus.
-
-Für WindowsUser:
-Da diese vorwiegend Figma nutzen werden, habe ich bisher nur eine Möglichkeit vor Augen.
-
-Figma kann wie Sketch auch einzelne Elemente exportieren. Diese Elemente können WindowsUser dann in PowerPoint (für Studenten der TH kostenfrei erhältlich) einfügen. Leider ist der export der einzelnen Element etwas umständlicher als bei Sketch :(
-Der restliche Workflow würde dann ähnlich zur Keynote-Variante ablaufen.
-
-Die einzige Alternative von der ich bisher lesen durfte ist lediglich das Tool Framer. Dieses hat allerdings nur eine 14 Tage Testlaufzeit und kostet danach c.a. 15€ pro Monat :/
-https://framer.com/pricing/
-
-@cnoss2 was ist Ihre Meinung zu den PowerPoint und Keynote Varianten?
+## Beispiele:
+- [Climber Interactive Production Company](http://www.climber.io/)
+- [Mobee Dick](http://mobeedick.com/)
+- [Web Beispiel mit jeder Menge Transitions](http://appewa.com/)
+- [Showcase von UX Designer Leo Leung](http://abduzeedo.com/ui-transitions-leo-leung)
+- [Showcase von Six UX](http://sixux.com/)
+- [Showcase auf CAPPTIVATE.co](http://capptivate.co)
