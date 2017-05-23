@@ -4,10 +4,11 @@ kuerzel: w-lfve
 verantwortlich: lk
 typ: workshop
 pflicht: false
-termine: 2017-05-26 11:00|folgt|http://bit.ly/2q4aYpk|3.216,2017-05-26 15:00|folgt|http://bit.ly/2qFGFae,2017-06-02 11:00|3.216,2017-06-02 15:00|3.216
+termine: 2017-05-26 11:00||http://bit.ly/2q4aYpk|3.216,2017-05-26 15:00||http://bit.ly/2qFGFae,2017-06-02 11:00|3.216,2017-06-02 15:00|3.216
 empfohlene-voraussetzungen: t-sb,t-fb,w-lmw, t-ld
 published: true
 dauer: 210
+raum: 3.216
 info: Verschiedene Endgeräte haben verschiedene Anforderungen, wie Darstellungsfläche und Interaktionsmöglichkeiten. Wie entwickle ich dafür Layoutkonzepte?
 ---
 
