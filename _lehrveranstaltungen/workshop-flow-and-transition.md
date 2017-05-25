@@ -43,6 +43,7 @@ An diesem Workshop sollte Sie nur teilnehmen, wenn Sie bereits fit im Umgang mit
 - [Enhance Your User Experience with Animated Transitions](https://medium.com/yummygum-journal/enhance-your-user-experience-with-animated-transitions-a30267ca376c)
 - [Landingpage zum Thema Transitions auf uxdesign.cc](https://uxdesign.cc/ui-inspiration-b019453058d7)
 - [Material Icons](https://material.io/icons/)
+- [Brand Icons](https://www.smashingmagazine.com/2013/03/free-brand-icons-color-style-guides-icons/#download-the-set-for-free)
 
 ## Beispiele:
 - [Climber Interactive Production Company](http://www.climber.io/)
