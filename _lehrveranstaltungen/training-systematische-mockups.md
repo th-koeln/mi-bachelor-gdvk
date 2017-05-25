@@ -42,7 +42,7 @@ Damit Sie einen guten Einstieg in das Training haben, arbeiten Sie bitte folgend
 
 Erstellen Sie für die Website „spielplatztreff.de” insgesamt drei Screens auf denen folgende Elemente vorhanden sein müssen:
 
-**Login-Screen**
+**Login**
 * Der Screen soll eine Headline mit dem Inhalt „Login”,
 * Eingabefelder „Username” und „Passwort”
 * und die Schaltflächen Login, „Passwort vergessen” und „mit Facebook anmelden” enthalten.
@@ -50,7 +50,7 @@ Erstellen Sie für die Website „spielplatztreff.de” insgesamt drei Screens a
 * In diesem sollen die Textbausteine „Du hast noch kein Konto?”, „Dann registriere dich jetzt kostenlos.”
 * und eine Schaltfläche „Registrieren” enthalten sein.
 
-**Registrieren Screen**
+**Registrieren**
 * Dieser Screen soll die Headline „Registrieren”,
 * Eingabefelder „Username”, „Passwort”, „Passwort wiederholen”, „E-Mail-Adresse”, „Postleitzahl”, „Wohnort” 
 * und die Schaltflächen „Registrieren” und „mit Facebook verbinden” enthalten.
