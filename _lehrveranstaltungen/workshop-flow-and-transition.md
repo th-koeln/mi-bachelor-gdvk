@@ -42,6 +42,7 @@ An diesem Workshop sollte Sie nur teilnehmen, wenn Sie bereits fit im Umgang mit
 - [Artikel aus dem Smashing Magazine zu Transistions](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design/)
 - [Enhance Your User Experience with Animated Transitions](https://medium.com/yummygum-journal/enhance-your-user-experience-with-animated-transitions-a30267ca376c)
 - [Landingpage zum Thema Transitions auf uxdesign.cc](https://uxdesign.cc/ui-inspiration-b019453058d7)
+- [Material Icons](https://material.io/icons/)
 
 ## Beispiele:
 - [Climber Interactive Production Company](http://www.climber.io/)
