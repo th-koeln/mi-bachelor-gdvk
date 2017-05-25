@@ -30,7 +30,7 @@ Damit Sie in diesem Workshop arbeitsfähig sind, ist es wichtig, dass Sie papier
 * Erzeugen Sie für jedes einzelne Wireframe ein Frame oder Artboard.
 * Optimieren Sie Ihren Entwurf ggf. in einer Iteration.
 
-### Worauf sollte ich achten?
+### Worauf sollten Sie achten?
 
 * Wichtig ist, dass Sie immer möglichst präzise und konsistent arbeiten:
   * Richten Sie alle Elemente an dem Raster aus und positionieren Sie sie pixelgenau.
