@@ -4,9 +4,10 @@ kuerzel: t-sm
 verantwortlich: vs,mk,fj
 typ: training
 pflicht: false
-termine: 2017-05-26 11:00|folgt|http://bit.ly/2rAc2SO, 2017-05-26 15:00|folgt|http://bit.ly/2qFwJ0H, 2017-06-02 11:00, 2017-06-02 15:00
+termine: 2017-05-26 11:00||http://bit.ly/2rAc2SO, 2017-05-26 15:00||http://bit.ly/2qFwJ0H, 2017-06-02 11:00, 2017-06-02 15:00
 empfohlene-voraussetzungen: t-fb,t-sb
 published: true
+raum: 3.217
 dauer: 120
 info: Wie können wir unsere Entwürfe systematisch in Sketch oder Figma aufbauen?
 ---
