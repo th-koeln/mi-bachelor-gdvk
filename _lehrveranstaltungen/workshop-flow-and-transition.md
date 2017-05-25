@@ -22,7 +22,7 @@ An diesem Workshop sollte Sie nur teilnehmen, wenn Sie bereits fit im Umgang mit
 - Übergänge steuern (Klick, Zeit, Abhängigkeiten)
 - Elemente animieren
 
-** Bitte bringen Sie, wenn möglich, einen eigenen Rechner mit. **
+**Bitte bringen Sie, wenn möglich, einen eigenen Rechner mit.**
 
 
 ## Tools & Tutorials
