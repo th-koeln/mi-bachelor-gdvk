@@ -68,8 +68,9 @@ Erstellen Sie für die Website „spielplatztreff.de” insgesamt drei Screens a
 
 
 
-* Erstellen Sie für alle drei Screens einmal ein Mockup für ein Smartphone und einmal für ein Desktop Rechner
-* erzeugen Sie anschließend von jedem Screen eine Variante
+Erstellen Sie für alle drei Screens einmal ein Mockup für ein Smartphone und einmal für ein Desktop Rechner
+
+erzeugen Sie anschließend von jedem Screen eine Variante
 
 ## Weiterführende Inhalte
 
