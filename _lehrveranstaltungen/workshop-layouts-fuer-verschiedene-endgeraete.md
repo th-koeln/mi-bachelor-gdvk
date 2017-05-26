@@ -24,6 +24,8 @@ Im Anschluss wenden wir das Erlernte praktisch auf ihr Projekt an.
 
 ## Weiterer Input:
 
+<p><a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns">Responsive Web Design Patterns</a></p>
+
 <p><a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/">Responsives Webdesign: Grundlagen</a></p>
 
 <p><a href="https://responsivedesign.is/">Responsive Web Design</a></p>
