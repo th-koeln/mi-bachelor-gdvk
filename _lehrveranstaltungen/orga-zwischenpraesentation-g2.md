@@ -4,7 +4,7 @@ kuerzel: o-zp2
 verantwortlich: lk,cn,vs
 typ: pruefung
 pflicht: true
-termine: 2017-06-01 14:00|3.217|http://bit.ly/2oQisfW,2017-06-01 16:00|0505|http://bit.ly/2oQQvo9
+termine: 2017-06-01 14:00|0505|http://bit.ly/2oQisfW,2017-06-01 16:00|0505|http://bit.ly/2oQQvo9
 empfohlene-voraussetzungen: 
 published: true
 dauer: 120
