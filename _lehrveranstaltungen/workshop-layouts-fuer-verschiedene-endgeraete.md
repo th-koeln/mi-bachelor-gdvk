@@ -4,7 +4,7 @@ kuerzel: w-lfve
 verantwortlich: lk
 typ: workshop
 pflicht: false
-termine: 2017-05-26 11:00||http://bit.ly/2q4aYpk|3.216,2017-05-26 15:00||http://bit.ly/2qFGFae,2017-06-02 11:00|3.216,2017-06-02 15:00|3.216
+termine: 2017-05-26 11:00||http://bit.ly/2q4aYpk|3.216,2017-05-26 15:00||http://bit.ly/2qFGFae,2017-06-02 11:00|3.216|http://bit.ly/2ruqZtZ,2017-06-02 15:00|3.216|http://bit.ly/2r1j7yh
 empfohlene-voraussetzungen: t-sb,t-fb,w-lmw, t-ld
 published: true
 dauer: 210
@@ -23,6 +23,8 @@ Im Anschluss wenden wir das Erlernte praktisch auf ihr Projekt an.
 - Papier und Stifte
 
 ## Weiterer Input:
+
+<p><a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/patterns">Responsive Web Design Patterns</a></p>
 
 <p><a href="https://developers.google.com/web/fundamentals/design-and-ui/responsive/">Responsives Webdesign: Grundlagen</a></p>
 

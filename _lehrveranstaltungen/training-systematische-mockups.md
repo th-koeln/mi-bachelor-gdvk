@@ -4,7 +4,7 @@ kuerzel: t-sm
 verantwortlich: vs
 typ: training
 pflicht: false
-termine: 2017-05-26 11:00||http://bit.ly/2rAc2SO, 2017-05-26 15:00||http://bit.ly/2qFwJ0H, 2017-06-02 11:00, 2017-06-02 15:00
+termine: 2017-05-26 11:00||http://bit.ly/2rAc2SO, 2017-05-26 15:00||http://bit.ly/2qFwJ0H, 2017-06-02 11:00||http://bit.ly/2rL7Q6y, 2017-06-02 15:00||http://bit.ly/2s3HLNr
 empfohlene-voraussetzungen: t-fb,t-sb
 published: true
 raum: 3.217
@@ -68,8 +68,9 @@ Erstellen Sie für die Website „spielplatztreff.de” insgesamt drei Screens a
 
 
 
-* Erstellen Sie für alle drei Screens einmal ein Mockup für ein Smartphone und einmal für ein Desktop Rechner
-* erzeugen Sie anschließend von jedem Screen eine Variante
+Erstellen Sie für alle drei Screens einmal ein Mockup für ein Smartphone und einmal für ein Desktop Rechner
+
+erzeugen Sie anschließend von jedem Screen eine Variante
 
 ## Weiterführende Inhalte
 
