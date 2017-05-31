@@ -1,7 +1,7 @@
 ---
 titel: Flow & Transition
 kuerzel: w-fat
-verantwortlich: lk,cn
+verantwortlich: cn
 typ: workshop
 pflicht: false
 termine: 2017-05-26 11:00||http://bit.ly/2qBUngz,2017-06-02 15:00, 2017-06-02 11:00

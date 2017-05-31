@@ -4,10 +4,11 @@ kuerzel: o-zp2
 verantwortlich: lk,cn
 typ: pruefung
 pflicht: true
-termine: 2017-06-01 14:00|fehlt|http://bit.ly/2oQisfW,2017-06-01 16:00|fehlt|http://bit.ly/2oQQvo9
+termine: 2017-06-01 14:00||http://bit.ly/2oQisfW,2017-06-01 16:00||http://bit.ly/2oQQvo9
 empfohlene-voraussetzungen: 
 published: true
 dauer: 120
+raum: 0.505
 anzahl: 15 Teams
 info: Dies ist ein Pflichttermin. Die Anwesenheit ist für das Bestehen des Moduls erforderlich. Zur Zwischenpräsentation bringen Sie bitte ihr Angebot und Anschreiben als Ausdruck in möglichst guter Qualität mit.
 ---

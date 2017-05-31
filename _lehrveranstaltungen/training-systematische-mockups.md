@@ -1,7 +1,7 @@
 ---
 titel: Systematischer Aufbau von Mockups
 kuerzel: t-sm
-verantwortlich: vs,mk,fj
+verantwortlich: vs
 typ: training
 pflicht: false
 termine: 2017-05-26 11:00||http://bit.ly/2rAc2SO, 2017-05-26 15:00||http://bit.ly/2qFwJ0H, 2017-06-02 11:00, 2017-06-02 15:00
