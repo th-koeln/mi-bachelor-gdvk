@@ -40,37 +40,20 @@ Damit Sie einen guten Einstieg in das Training haben, arbeiten Sie bitte folgend
 
 ## Aufgaben für das Training
 
-Erstellen Sie für die Website „spielplatztreff.de” insgesamt drei Screens auf denen folgende Elemente vorhanden sein müssen:
-
-**Login**
-* Der Screen soll eine Headline mit dem Inhalt „Login”,
-* Eingabefelder „Username” und „Passwort”
-* und die Schaltflächen Login, „Passwort vergessen” und „mit Facebook anmelden” enthalten.
-* Zudem soll es einen Bereich geben, über den man zur Registrieren-Seite gelangt.
-* In diesem sollen die Textbausteine „Du hast noch kein Konto?”, „Dann registriere dich jetzt kostenlos.”
-* und eine Schaltfläche „Registrieren” enthalten sein.
-
-**Registrieren**
-* Dieser Screen soll die Headline „Registrieren”,
-* Eingabefelder „Username”, „Passwort”, „Passwort wiederholen”, „E-Mail-Adresse”, „Postleitzahl”, „Wohnort” 
-* und die Schaltflächen „Registrieren” und „mit Facebook verbinden” enthalten.
-* Zudem sollen auf dem Screen zwei Checkboxen mit den Texten
-* „Ja, ich möchte den kostenlosen Newsletter erhalten, damit ich keine Neuigkeit zu Spielplatztreff verpasse.” und
-* „Ja, ich habe die Nutzungsbedingungen und die Datenschutzerklärung gelesen und akzeptiere diese.” plaziert werden.
-* Die Worte „Nutzungsbedingungen” und „Datenschutzerklärung” sollen dabei als Verlinkung kenntlich gemacht werden
-
-**Registrierung erfolgreich**
-
-* Der Screen soll die Headline „Registrierung erfolgreich” 
-* und die Textblöcke
-* „Deine Registrierung war erfolgreich” und
-* „Wir haben dir eine E-Mail mit dem Bestätigungslink geschickt. Klicke auf diesen Link, um deinen Account zu aktivieren” enthalten.
 
 
+Erstellen Sie drei Screens, die den Vorlagen aus dem Arbeitspaket möglichst 1 zu 1 entsprechen. Im Ordner "assets", aus dem Arbeitspaket, sind die benötigten Bilder enthalten.
 
-Erstellen Sie für alle drei Screens einmal ein Mockup für ein Smartphone und einmal für ein Desktop Rechner
+Schriftart: Helvetica neue
+Größe der Screens: 375px x 667px (iPhone 7)
 
-erzeugen Sie anschließend von jedem Screen eine Variante
+Gehen Sie beim Aufbau der Screens möglichst systematisch vor. 
+Es empfiehlt sich aussagekräftige Namen für die einzelnen Frames / Artboards, Layer und Elemente zu verwenden.
+Erstellen Sie sich ein Set aus Components oder Symbols für Elemente, die häufig wiederverwendet werden.
+
+## Arbeitspaket
+
+[Arbeitspaket download](../../download/training-systematischer-aufbau-von-mockups/arbeitspaket.zip)
 
 ## Weiterführende Inhalte
 
