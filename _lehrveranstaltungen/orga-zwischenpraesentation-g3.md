@@ -6,8 +6,8 @@ typ: pruefung
 pflicht: true
 termine: 2017-06-01 14:00|0504|http://bit.ly/2rfpqgu,2017-06-01 16:00|0504|http://bit.ly/2rbfrdq
 empfohlene-voraussetzungen: 
-raum: 0504
 published: true
+raum: 0504
 dauer: 120
 anzahl: 15 Teams
 info: Dies ist ein Pflichttermin. Die Anwesenheit ist für das Bestehen des Moduls erforderlich. Zur Zwischenpräsentation bringen Sie bitte ihr Angebot und Anschreiben als Ausdruck in möglichst guter Qualität mit.

@@ -8,6 +8,7 @@ termine: 2017-06-01 14:00|3.216|http://bit.ly/2pLrmMy,2017-06-01 16:00|3.216|htt
 empfohlene-voraussetzungen: 
 published: true
 dauer: 120
+raum: 3.216
 anzahl: 15 Teams
 info: Dies ist ein Pflichttermin. Die Anwesenheit ist für das Bestehen des Moduls erforderlich. Zur Zwischenpräsentation bringen Sie bitte ihr Angebot und Anschreiben als Ausdruck in möglichst guter Qualität mit.
 ---
