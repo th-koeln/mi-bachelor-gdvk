@@ -53,7 +53,7 @@ Erstellen Sie sich ein Set aus Components oder Symbols für Elemente, die häufi
 
 ## Arbeitspaket
 
-[Arbeitspaket download](../../download/training-systematischer-aufbau-von-mockups/arbeitspaket.zip)
+[Arbeitspaket download](../../download/training-systematischer-aufbau-von-mockups/arbeitspaket_aufbau_mockups.zip)
 
 ## Weiterführende Inhalte
 
