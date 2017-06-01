@@ -44,11 +44,11 @@ Damit Sie einen guten Einstieg in das Training haben, arbeiten Sie bitte folgend
 
 Erstellen Sie drei Screens, die den Vorlagen aus dem Arbeitspaket möglichst 1 zu 1 entsprechen. Im Ordner "assets", aus dem Arbeitspaket, sind die benötigten Bilder enthalten.
 
-Schriftart: Helvetica neue
+Schriftart: Helvetica neue  
 Größe der Screens: 375px x 667px (iPhone 7)
 
-Gehen Sie beim Aufbau der Screens möglichst systematisch vor. 
-Es empfiehlt sich aussagekräftige Namen für die einzelnen Frames / Artboards, Layer und Elemente zu verwenden.
+Gehen Sie beim Aufbau der Screens möglichst systematisch vor.  
+Es empfiehlt sich aussagekräftige Namen für die einzelnen Frames / Artboards, Layer und Elemente zu verwenden.  
 Erstellen Sie sich ein Set aus Components oder Symbols für Elemente, die häufig wiederverwendet werden.
 
 ## Arbeitspaket
