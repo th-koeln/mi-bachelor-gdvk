@@ -38,7 +38,7 @@ Damit Sie einen guten Einstieg in das Training haben, arbeiten Sie bitte folgend
 * [https://www.youtube.com/watch?v=yoPZnND0gKk](https://www.youtube.com/watch?v=yoPZnND0gKk)
 * [https://www.youtube.com/watch?v=TzmENmVZujs](https://www.youtube.com/watch?v=TzmENmVZujs)
 
-## Aufgaben für das Training
+## Aufgabe für das Training
 
 
 
