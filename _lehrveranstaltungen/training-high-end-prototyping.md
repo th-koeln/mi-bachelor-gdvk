@@ -4,7 +4,7 @@ kuerzel: t-hepa
 verantwortlich: fj
 typ: training
 pflicht: false
-termine: 2017-06-09 11:00, 2017-06-09 14:00
+termine: 2017-06-09 11:00|3.217|https://www.medieninformatik.th-koeln.de/w/Grundlagen_der_visuellen_Kommunikation:SoSe17:HighEnd_Prototyping_9_Juni_2017_a, 2017-06-09 14:00|3.217|https://www.medieninformatik.th-koeln.de/w/Grundlagen_der_visuellen_Kommunikation:SoSe17:HighEnd_Prototyping_9_Juni_2017_b
 empfohlene-voraussetzungen: t-fb,t-sb
 published: true
 dauer: 120
