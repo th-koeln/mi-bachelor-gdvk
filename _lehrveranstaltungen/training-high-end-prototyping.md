@@ -16,6 +16,9 @@ Das High End Prototyping umfasst viele der bisher gelernten Inhalte und soll zus
 ## Was bringt mir das Training?
 Der Umgang mit Designtools sollte bekannt sein und es wird vorausgesetzt, dass Teilnehmer grundlegende Aktionen relativ schnell umsetzen können. In diesem Training soll das neue Tool und seine besonderen Eigenschaften kennegelernt werden. Der grobe Aufbau orientiert sich am Sketch-Training, wird aber mehr Arbeit mit Artboards, Symbolen, Beschränkungen (Constraints) und pixelbasierte Anpassungen beinhalten. Die Ziele sind ein effizienterer Workflow, die richtige Auswahl und Nutzung des Designtools sowie am Ende ein hochqualitatives umsetzbares Design. Somit unterstützt das Training spätere Designphasen und Präsentationsvorhaben.
 
+## Voraussetzung
+**Zwingend notwendig ist ein eigener mitgebrachter Rechner mit Affinity Designer oder dessen Testversion. Informationen dazu sind auf der [Affinity Designer Website](https://affinity.serif.com/de/designer/) zu finden.**
+
 ## Was sollte ich vorbereiten?
 * Optional aber sinnvoll: Affinity Designer ausprobieren und mit der Oberfläche vertraut machen. Im Training wird es eine grundlegende EInführung geben und für das Training wichtige Bereiche werden gezeigt. Für einen effizienten Umgang ist eine erste Individualexploration aber durchaus vorteilhaft.
 
