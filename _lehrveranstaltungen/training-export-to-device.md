@@ -4,10 +4,11 @@ kuerzel: t-e2d
 verantwortlich: vs,mk,fj
 typ: training
 pflicht: false
-termine: 2017-06-08 14:00, 2017-06-08 16:00, 2017-06-09 14:00
+termine: 2017-06-08 14:00||http://bit.ly/2sIU6WQ, 2017-06-08 16:00||http://bit.ly/2s9egMY, 2017-06-09 14:00||http://bit.ly/2svS7Gc
 empfohlene-voraussetzungen: t-fb,t-sb
 published: true
 dauer: 120
+raum: 3.217
 info: Wie können wir unsere Entwürfe aus Sketch oder Figma auf verschiedenen Devices anschauen und überprüfen? Wie sehen Tools und komplette Workflows dafür aus?
 ---
 
