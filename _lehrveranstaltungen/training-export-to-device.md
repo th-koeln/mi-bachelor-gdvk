@@ -4,7 +4,7 @@ kuerzel: t-e2d
 verantwortlich: vs,mk,fj
 typ: training
 pflicht: false
-termine: 2017-06-08 14:00||http://bit.ly/2sIU6WQ, 2017-06-08 16:00||http://bit.ly/2s9egMY, 2017-06-09 14:00||http://bit.ly/2svS7Gc
+termine: 2017-06-08 14:00||http://bit.ly/2qXH0no, 2017-06-08 16:00||http://bit.ly/2qXV7ZH, 2017-06-09 14:00||http://bit.ly/2rt3oZ8
 empfohlene-voraussetzungen: t-fb,t-sb
 published: true
 dauer: 120
@@ -12,8 +12,5 @@ raum: 3.217
 info: Wie können wir unsere Entwürfe aus Sketch oder Figma auf verschiedenen Devices anschauen und überprüfen? Wie sehen Tools und komplette Workflows dafür aus?
 ---
 
-Ich hab recherchiert wie sich ein paar Vorgänge in den Tools verbessern ließen.
+## Worum geht es?
 
-Sketch bietet die Möglichkeit Elemente als Symbols zu verwenden. Dadurch hat man SmartObjects die sich auf eine veränderbare Referenz beziehen.
-
-Figma biete leider noch keine solche Funktion an. Dafür ist die Collaboration sehr fortschrittlich. Mehrere Leute können gleichzeitig an einem Projekt entwickeln und mit Kommentaren diskutieren.

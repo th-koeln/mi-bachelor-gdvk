@@ -20,7 +20,7 @@ Der Umgang mit Designtools sollte bekannt sein und es wird vorausgesetzt, dass T
 **Zwingend notwendig ist ein eigener mitgebrachter Rechner mit Affinity Designer oder dessen Testversion. Informationen dazu sind auf der [Affinity Designer Website](https://affinity.serif.com/de/designer/) zu finden.**
 
 ## Was sollte ich vorbereiten?
-* Optional aber sinnvoll: Affinity Designer ausprobieren und mit der Oberfläche vertraut machen. Im Training wird es eine grundlegende EInführung geben und für das Training wichtige Bereiche werden gezeigt. Für einen effizienten Umgang ist eine erste Individualexploration aber durchaus vorteilhaft.
+* Optional aber sinnvoll: Affinity Designer ausprobieren und mit der Oberfläche vertraut machen. Im Training wird es eine grundlegende Einführung geben und für das Training wichtige Bereiche werden gezeigt. Für einen effizienten Umgang ist eine erste Individualexploration aber durchaus vorteilhaft.
 
 
 ## Material
