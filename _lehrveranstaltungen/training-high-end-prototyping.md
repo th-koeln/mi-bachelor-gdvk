@@ -25,4 +25,4 @@ Der Umgang mit Designtools sollte bekannt sein und es wird vorausgesetzt, dass T
 
 ## Material
 
-* Aufgaben und Vorgaben (folgt)
+* [Aufgaben und Material (Paket)](../../download/training-affinity-prototyping/Affinity-Training-Material-SoSe17.zip)
