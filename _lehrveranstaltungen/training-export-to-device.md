@@ -28,4 +28,6 @@ An diesem Workshop sollten Sie nur teilnehmen, wenn Sie fit in dem Umgang mit Sk
 
 ## Material zum Training
 
-folgt
+## Arbeitspaket
+
+[Material download](../../download/training-export_to_device/arbeitspaket_export_to_device.zip)
