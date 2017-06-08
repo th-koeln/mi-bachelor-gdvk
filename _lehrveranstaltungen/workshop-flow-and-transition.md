@@ -36,7 +36,7 @@ An diesem Workshop sollte Sie nur teilnehmen, wenn Sie bereits fit im Umgang mit
 - [Tutorial für den Einsatz von Keynote als Prototyping Tool](https://www.smashingmagazine.com/2015/08/animating-in-keynote/)
 
 ## Material & Input
-* [Download der Workshop Slides als PDF](../../download/workshop-flow-and-transition/workshop-flow-and-transition.pdf)
+- [Download der Workshop Slides als PDF](../../download/workshop-flow-and-transition/workshop-flow-and-transition.pdf)
 - [Creating Usability with Motion: The UX in Motion Manifesto](https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc)
 - [Google Motion Guidelines](https://material.io/guidelines/motion/material-motion.html)
 - [Übersicht gängiger Easings](http://easings.net/de)
