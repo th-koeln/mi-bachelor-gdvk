@@ -75,3 +75,54 @@ week-7:
     start: "11:00"
     end: "18:00"
     name: Freitag
+week-8:
+week-9:
+week-10:
+  day-1:
+    datum: 2017-06-30
+    start: "16:30"
+    end: "18:00"
+    name: Freitag
+week-11:
+week-12:
+  day-1:
+    datum: 2017-07-14
+    start: "12:30"
+    end: "14:00"
+    name: Freitag
+week-13:
+week-14:
+  day-1:
+    datum: 2017-07-27
+    start: "12:30"
+    end: "14:00"
+    name: Donnerstag
+week-15:
+week-16:
+  day-1:
+    datum: 2017-08-10
+    start: "12:30"
+    end: "14:00"
+    name: Donnerstag
+week-17:
+week-18:
+  day-1:
+    datum: 2017-08-24
+    start: "12:30"
+    end: "14:00"
+    name: Donnerstag
+week-19:
+week-20:
+  day-1:
+    datum: 2017-09-07
+    start: "12:30"
+    end: "14:00"
+    name: Donnerstag
+week-21:
+week-22:
+  day-1:
+    datum: 2017-09-21
+    start: "12:30"
+    end: "14:00"
+    name: Donnerstag
+    
