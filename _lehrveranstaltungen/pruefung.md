@@ -13,3 +13,11 @@ anzahl: 10 Teams
 info:
 ---
 
+## Ablauf
+Bitte präsentieren Sie Ihr Gestaltungskonzept und Ihre Entwürfe in maximal 15 Minuten. Danach führen wir ein 5-minütiges Fachgespräch. Im Anschluss daran beraten wir uns ohne Sie und teilen Ihnen danach die Note und unsere Begründung mit.
+
+## Was muss ich mitbringen?
+- Studierendenausweis
+- Eigenstänndigkeitserklärung
+- Laufzettel
+
