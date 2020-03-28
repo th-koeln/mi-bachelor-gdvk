@@ -7,7 +7,7 @@ artefakt1:
 artefakt2:
   name: Designkonzept als Mockup
   date: 2017-09-28 00:00
-  format: PDF und *.zip Archiv mit Einzelscreens
+  format: PDF und Einzelscreens als PNG (2-fache Größe)
   anteil: 1/2
   
 artefakt3:
